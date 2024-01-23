@@ -1,0 +1,57 @@
+===== 設備時間同步-Host Trigger
+
+===== Host控制設備切換 Online Remote
+
+===== Host控制設備切換 Online Local
+
+===== 設備機況收集-运行     CEID:122/RPTID:120/VID:1003/3
+
+===== 設備機況收集-待機     CEID:121/RPTID:120/VID:1003/2
+
+===== 設備機況收集-停機     CEID:120/RPTID:120/VID:1003/1
+
+===== 設備機況收集-保養     CEID:125/RPTID:120/VID:1003/6
+
+===== 設備機況收集-Stop     CEID:123/RPTID:120/VID:1003/4
+
+===== 設備機況收集-開機     CEID:124/RPTID:120/VID:1003/5
+
+===== 設備警報收集-發生
+
+===== 設備警報收集-解除
+
+===== 設備警報收集-查詢
+
+===== 設備關鍵參數收集
+
+===== 設備生產訊號收集-Local					
+
+===== 設備生產訊號收集-Remote					
+
+===== 設備生產訊號收集-生產開始訊號			104		
+
+===== 設備生產訊號收集-生產結束訊號			105		
+
+===== 設備生產訊號收集-Panel read				        100	
+
+===== 設備生產訊號收集-Check In Request工單確認請求     101					
+
+===== 設備生產訊號收集-Check Out	工單完成            102
+
+===== 設備生產訊號收集-Port1 Port Cancel	強制退框    106
+
+===== 設備生產訊號收集-Port1 Loaded	機台物料檢測        107
+
+===== 設備生產訊號收集-Port Status Change Report (LDRQ)	請求上料                110
+
+===== 設備生產訊號收集-Port Status Change Report (LDCP)	上料完成                111
+
+===== 設備生產訊號收集-Port Status Change Report (ULRQ)	請求下料                112
+
+===== 設備生產訊號收集-Port Status Change Report (ULCP)	下料完成                113
+
+===== 遠端控制設備-Check In Result					    2053
+
+===== 遠端控制設備-Panel ID Upload Report Ack		    2056
+
+===== 遠端控制設備-Check Out Report Ack					2054
