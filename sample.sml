@@ -163,7 +163,7 @@ s2f15_Panel_Ack_NG: S2F15 W
      > .
 
 s2f16: S2F16
-<U1 0>.
+<B 0>.
 
 S2F21 W
 <U1 1>.
