@@ -41,7 +41,7 @@ s2f15_Remote: S2F15 W
     <L
         <L
            <U4 2067>
-           <B 1>
+           <Boolean 1>
         >
      > .
 
@@ -49,7 +49,7 @@ s2f15_Local: S2F15 W
     <L
         <L
            <U4 2067>
-           <B 0>
+           <Boolean 0>
         >
      > .
 
@@ -81,7 +81,7 @@ s2f15_time: S2F15 W
         >
         <L
            <U4 2050>
-           <B 1>
+           <Boolean 1>
         >
      > .
 
@@ -112,13 +112,17 @@ s2f15_in: S2F15 W
            <U4 1230>
            <A "Message">
         >
+        <L
+           <U4 2053>
+           <Boolean 1>
+        >
      > .
 
 s2f15_in_Ack_OK: S2F15 W
     <L
         <L
            <U4 2053>
-           <B 1>
+           <Boolean 1>
         >
      > .
 
@@ -126,7 +130,7 @@ s2f15_in_Ack_NG: S2F15 W
     <L
         <L
            <U4 2053>
-           <B 0>
+           <Boolean 0>
         >
      > .
 
@@ -134,7 +138,7 @@ s2f15_out_Ack_OK: S2F15 W
     <L
         <L
            <U4 2054>
-           <B 1>
+           <Boolean 1>
         >
      > .
 
@@ -142,7 +146,7 @@ s2f15_out_Ack_NG: S2F15 W
     <L
         <L
            <U4 2054>
-           <B 0>
+           <Boolean 0>
         >
      > .
 
@@ -150,7 +154,7 @@ s2f15_Panel_Ack_OK: S2F15 W
     <L
         <L
            <U4 2056>
-           <B 1>
+           <Boolean 1>
         >
      > .
 
@@ -158,12 +162,12 @@ s2f15_Panel_Ack_NG: S2F15 W
     <L
         <L
            <U4 2056>
-           <B 0>
+           <Boolean 0>
         >
      > .
 
 s2f16: S2F16
-<B 0>.
+<Boolean 0>.
 
 S2F21 W
 <U1 1>.
@@ -344,7 +348,7 @@ StatusLamp :'S1F3' W
     >.
 
 S1F5 W
-<B 0x01>.
+<Boolean 0x01>.
 
 S1F6
 <L
@@ -352,18 +356,16 @@ S1F6
   <I2>
 >.
 
-S1F13:'S1F13' W
+s1f13:'S1F13' W
      <L
         <A "WET.01">
         <A "REV.01">
      >.
 
-S1F14:'S1F14'
+s1f14:'S1F14'
     <L
         <B 0x00>
         <L
-           <A "WET.01">
-           <A "REV.01">
         >
      > .
                    
@@ -464,7 +466,7 @@ S5F1: S5F1 W
 >.
 
 S5F2
-<B 0x00>.
+<Boolean 0x00>.
 
 S15F31 W
 <A "RECIPE000">.
@@ -580,12 +582,13 @@ s6f11_102: S6F11 W
 >.
 
 s6f12: S6F12 W
-<B 0x00>.
+<Boolean 0x00>.
 
 
 
 if (s1f1 (4)==<F4 0.5567>) s1f2_1.
 if (s1f1 (4)==<F4 0.5568>) s1f2_2.
+if (s1f13) s1f14.
 if (s1f1) s1f3_1.
 if (s1f3 (2)==<U2 1>) s1f4_1.
 if (s1f3 (2)==<U2 5>) s1f4_2.
