@@ -1,0 +1,105 @@
+VID	Description	Type	Default	Max	Min	Length	Comment
+60001	CLOCK	A					Date & Time：YYMMDDHHMMSS
+60002	CTROLMODE	A					Offline / Online Local / Online Remote
+60003	EQST	A					RUN / IDLE / DOWN / PM
+60004	EQOPMODE	A					AUTO / MANUAL / SEMIAUTO
+60005	PPID	A					
+60006	LOTID	A					
+60007	UNITID	A					
+60008	PANELID	A					
+60010	FROMSTATUS	A					1：灯灭，2：灯常亮，3：灯闪烁
+60011	TOSTATUS	A					1：灯灭，2：灯常亮，3：灯闪烁
+60012	RESULT	A					OK / NG
+2000	Inline On-Time Complete	BOOLEAN				1	1=對時完成
+2001	Port#1 Load Request 	BOOLEAN				1	1=請求上料
+2002	Port#1 Load Complete	BOOLEAN				1	1=上料完成
+2003	Port#1 Check In Request	BOOLEAN				1	1=工單確認
+2004	Port#1 Process Start 	BOOLEAN				1	1=開始放板
+2005	Port#1 Process End	BOOLEAN				1	1=結束放板
+2006	Port#1 Check Out Request	BOOLEAN				1	1=工單完成/結批
+2007	Port#1 Unload Request 	BOOLEAN				1	1=請求出料
+2008	Port#1 Unload Complete	BOOLEAN				1	1=出料完成
+2009	Port#1 Port Cancel	BOOLEAN				1	1=強制退框
+2010	Port#1 Port上有料檢知 	BOOLEAN				1	1=料口有料,0=料口無料
+2011	Port#1 AGV Mode	BOOLEAN				1	1=AGV模式開啟,0=AGV模式關閉
+2012	Port#1 AGV Reserve-預留	BOOLEAN				1	目前無使用
+2014	Inline 暫存機提出暫停要求(暫存機專用)	BOOLEAN				1	目前無使用
+2015	Dummy Upload Report	BOOLEAN				1	1=Dummy板上報
+2016	Set LotInfo	BOOLEAN				1	1=工單下帶模式開啟
+2017	EAP Mode Bit(EQP Side)	BOOLEAN				1	1=Remote,0=Local
+2018	EQ Heart Bit	BOOLEAN				1	1=Heart_Bit_On,0=Heart_Bit_Off
+2019	PanelID Upload Report	BOOLEAN				1	1=板件上報
+2040	Panel Out/In Complete	BOOLEAN				1	1=出板/入板完成
+2041	Remote Panel Qty Switch	BOOLEAN				1	1=遠端片數下帶功能開啟,0=遠端片數下帶功能關閉
+2042	Remote Control Switch	BOOLEAN				1	1=刷工單功能開啟,0=刷工單功能關閉
+2043	Machine Operation Mode	BOOLEAN				1	1=機台操作模式-自動,0=機台操作模式-手動
+2020	MultiPanelA ID Upload Report	BOOLEAN				1	1=A軌四分割板板件上報
+2021	MultiPanelB ID Upload Report	BOOLEAN				1	1=B軌四分割板板件上報
+2071	Port#2 Load Request 	BOOLEAN				1	1=Port#2 請求上料
+2072	Port#2 Load Complete	BOOLEAN				1	1=Port#2 上料完成
+2074	Port#2 Process Start 	BOOLEAN				1	1=Port#2 開始放板
+2075	Port#2 Process End	BOOLEAN				1	1=Port#2 結束放板
+2076	Port#2 Check Out Request	BOOLEAN				1	1=Port#2 工單完成/結批
+2077	Port#2 Unload Request 	BOOLEAN				1	1=Port#2 請求出料
+2078	Port#2 Unload Complete	BOOLEAN				1	1=Port#2 出料完成
+2079	Port#2 Port Cancel	BOOLEAN				1	1=Port#2 強制退框
+2080	Port#2 Port上有料檢知 	BOOLEAN				1	1=Port#2 料口有料,0=Port#2 料口無料
+2081	Port#2 AGV Mode	BOOLEAN				1	1=Port#2 AGV模式開啟,0=Port#2 AGV模式關閉
+2082	Port#2 AGV Reserve-預留	BOOLEAN				1	目前無使用
+2083	Port#2 PanelID Upload Report	BOOLEAN				1	1=Port#2 板件上報
+2084	Port#2 Panel In Complete	BOOLEAN				1	1=Port#2 入板完成
+2085	RecipeChangeOK	BOOLEAN				1	1=配方切換完成
+2086	PinStackComplete	BOOLEAN				1	1=2PIN機疊板完成
+1000	EQ Current Recipe No.	U2				1	設備當前配方No.
+1001	EQ Works Flow Counter	U2				1	設備當前流板片數
+1002	EQ Type	U2				1	設備類型(1=LD,2=ULD,3=連線生產模式(only多載具暫存機))
+1003	EQ Status	U2				1	"設備狀態
+(1=Down / 2=Idle / 3=Running / 4=Stop / 5= Initial / 6=PM
+Running < Idle < Initial < Stop < Down < PM)"
+1004	EQ Panel Direction	U2				1	"板件方向
+(1=0 / 2=180 / 3=90 / 4=-90)"
+1005	EQ Panel Face	U2				1	"板件面向
+(1=正面 / 2=反面)"
+1010	EQ Part No	ASCII				12	設備當前料號
+1020	EQ LOT ID	ASCII				12	設備工單ID
+1030	EQ Panel ID	ASCII				11	設備板件ID
+1040	EQ Panel Tray ID	ASCII				14	設備TrayID
+1050	EQ Carrier ID	ASCII				12	設備上蓋ID/框ID
+1100	EQ Multi PanelA ID	ASCII				12	設備A軌四分割板ID
+1110	EQ Multi PanelB ID	ASCII				12	設備B軌四分割板ID
+1120	EQ Dummy ID	ASCII				11	設備DummyID
+1121	Port#2 EQ Works Flow Counter	U2				1	Port#2 設備當前流板片數
+1130	Port#2 EQ Part No	ASCII				12	Port#2 設備當前料號
+1140	Port#2 EQ LOT ID	ASCII				12	Port#2 設備工單ID
+1150	Port#2 EQ Panel ID	ASCII				11	Port#2 設備當前板件ID
+1160	Port#2 EQ Panel Tray ID	ASCII				14	Port#2 設備當前TrayID
+1170	Port#2 EQ Carrier ID	ASCII				12	Port#2 設備上蓋ID/框ID
+1180	EQ Dummy ID(For PLASMA)	ASCII				11	設備DummyID(For PLASMA)
+1190	EQ StackNumber	U2				1	2PIN機疊板組數
+1400	ABF_UpMuoID	ASCII				50	ABF壓合_上膜ID
+1450	ABF_LowMuoID	ASCII				50	ABF壓合_下膜ID
+
+2050	Inline On-Time Request	BOOLEAN	ECV	1	1=對時請求
+2053	CiMES Check In Result Ack	BOOLEAN	ECV	1	1=Check In Ack_On,0=Check In Ack_Off
+2054	CiMES Check Out Ack	BOOLEAN	ECV	1	1=結批Ack_On,0=結批Ack_Off
+2055	Port#2 CiMES Check Out Ack	BOOLEAN	ECV	1	1=Port#2 結批Ack_On,0=Port#2 結批Ack_Off
+2056	PanelID Upload Report Ack	BOOLEAN	ECV	1	1=板件上報ACK_On,0=板件上報ACK_Off
+2057	MultiPanelA ID Upload Report Ack	BOOLEAN	ECV	1	1=A軌四分割板上報_Ack_On,0=A軌四分割板上報_Ack_Off
+2058	MultiPanelB ID Upload Report Ack	BOOLEAN	ECV	1	1=B軌四分割板上報_Ack_On,0=B軌四分割板上報_Ack_Off
+2059	Port#2 PanelID Upload Report Ack	BOOLEAN	ECV	1	1=Port#2 板件上報ACK_On,0=Port#2 板件上報ACK_Off
+2063	遠端暫停-PanelID比對失敗	BOOLEAN	ECV	1	1=遠端暫停
+2065	Dummy Upload Report Ack	BOOLEAN	ECV	1	1=Dummy板上報ACK_On,0=Dummy板上報ACK_Off
+2067	EAP Mode Bit	BOOLEAN	ECV	1	1=EAP模式切換_Remote,0=EAP模式切換_Local
+1200	CiMES Recipe No.	U2	ECV	1	MES下帶配方No
+1201	CiMES PanelQty 	U2	ECV	1	MES下帶生產片數
+1202	Remote Stop Reason	U2	ECV	1	遠端暫停原因(0:正常 1:板號與Lot資訊不符)
+1203	CiMES Check In Result	U2	ECV	1	工單確認結果(1=OK,2=NG)
+1210	CiMES Part No	ASCII	ECV	12	MES下帶料號
+1220	CiMES LOT ID	ASCII	ECV	12	MES下帶工單號
+1230	CiMES Message Data	ASCII	ECV	40	MES工單確認訊息
+1250	On-Time_Year	U2	ECV	1	對時_年
+1251	On-Time_Month	U2	ECV	1	對時_月
+1252	On-Time_Day	U2	ECV	1	對時_日
+1253	On-Time_Hour	U2	ECV	1	對時_時
+1254	On-Time_Minutes	U2	ECV	1	對時_分
+1255	On-Time_Seconds	U2	ECV	1	對時_秒

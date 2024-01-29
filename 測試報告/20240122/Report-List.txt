@@ -1,0 +1,43 @@
+Report ID	Description	Comment	Link VID	Used(O/X)
+100	Panel Upload Report	板件上報	1000,1001,1004,1005,1010,1020,1030,1040,1050	O
+101	Check In Req	工單確認請求(Check In)	1020,1050	O
+102	Check Out	工單完成(Check Out)	1020,1050	O
+103	DownLoad_LotID_Mode	工單下帶模式	2016	O
+104	Port1 Process Start	開始放板/開始收板	2004	O
+105	Port1 Process End	結束放板/結束收板	2005	O
+106	Port1 Port Cancel	強制退框	2009	O
+107	Port1 Loaded	機台物料檢測	2010	O
+108	Port1 AGV Mode	AGV模式	2011	O
+109	Panel In/Out Complete	出板完成/入板完成	2040	O
+110	Port Status Change Report	料口狀態上報	2001,2002,2007,2008	O
+114	Machine Operation Mode	機台操作模式切換	2043	O
+120	EQ Status Change Report	機台狀態	1003	O
+126	Remote Panel Qty Switch	遠端片數下帶模式切換	2041	O
+127	EQP Remote Control Switch	機台模式切換:Remote/Local	2017	O
+128	EAP Remote Control Switch	EAP模式切換:Remote/Local	2067	O
+129	Port2 Panel Upload Report	Port2 PanelID Upload Report	1000,1121,1004,1005,1130,1140,1150,1160,1170	O
+130	Port2 Panel In/Out Complete	Port2 Panel In/Out Complete	2084	O
+132	Port2 Check Out	Port2 工單完成	1140,1170	O
+140	Port2 Status Change Report	Port2 料口狀態上報	2071,2072,2077,2078	O
+148	Port2 AGV Mode	Port2 AGV模式	2081	O
+150	Multi Panel A Upload Report	Multi Panel A 板件上報	1000,1001,1004,1005,1010,1020,1100,1040	O
+151	Multi Panel B Upload Report	Multi Panel B 板件上報	1000,1001,1004,1005,1010,1020,1110,1040	O
+152	Dummy Upload Report	Dummy板上報	1020,1120	O
+154	MuoChangeComplete	ABF乾墨安裝完成	1400,1450	O
+155	Check In ACK On/off	Check In ACK On/off	2053	O
+156	Panel Upload ACK On/Off	板件上報 ACK On/Off	2056	O
+157	Multi Panel A Upload Ack  On/Off	Multi Panel A Upload Ack On/Off	2057	O
+158	Multi Panel B Upload Ack  On/Off	Multi Panel B Upload Ack On/Off	2058	O
+159	Port2 Panel Upload Ack  On/Off	Port2 Panel Upload ACK On/Off	2059	O
+160	ABF_Lazer_Mode_Change	ABF雷鑽機生產模式切換	1002	O
+161	EQ_Type_Change	EQ Type切換(多载具)	1002	O
+162	On-Time_Complete	對時完成	2000	O
+163	Dummy Upload Report Ack  On/Off	Dummy板上報 Ack On/Off	2065	O
+164	Check Out Ack  On/Off	工單完成 ACK On/off	2054	O
+165	Port2 Check Out Ack  On/Off	Port2 工單完成 On/off	2055	O
+400	GET Current EQ Status	當前機台狀態上報	"1003,1020,1050,2001,2002,2007,2008,2004,2005,
+[1140,1170,2071,2072,2077,2078,2074,2075(有Port2才須更新)],2016,2017,2041"	O
+500	GET All EQ Data	生產數據上報	1020,1050,5000~5047,4000~4047	O
+501	Port2 GET All EQ Data	Port2 生產數據上報	1140,1170,8000~8047,7000~7047	O
+502	RecipeChangeOK	配方切换完成事件	1000	O
+900	Remote Control Switch	遠端控制模式切換	2042	O

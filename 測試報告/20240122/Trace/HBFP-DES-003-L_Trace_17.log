@@ -1,0 +1,1176 @@
+2024-01-22 17:00:34.7727[TRACE]Send [S1F1_H] AreYouThereRequest,TrxId[2024012217002234723],SystemBytes[58]
+00 00 81 01 00 00 00 00 00 3A 
+
+S1F1 H2E Wbit(True) DeviceID(0) Systembytes(58)
+
+2024-01-22 17:00:34.7895[TRACE]Receive [S1F2_E] OnlineData,TrxId[2024012217002234723],SystemBytes[58]
+00 00 01 02 00 00 00 00 00 3A 
+01 02 41 12 50 45 47 41 54 52     4F 4E 5F 50 61 6E 65 6C 54 72 
+61 79 41 05 31 2E 30 2E 30 
+S1F2 E2H Wbit(False) DeviceID(0) Systembytes(58)
+<L [2]
+    <A [18] PEGATRON_PanelTray> *MDLN 
+    <A [5] 1.0.0> *SOFTREV 
+>
+
+2024-01-22 17:00:57.5531[TRACE]Receive [S5F1_E] Alarm Report Send,TrxId[202401221700575531],SystemBytes[1874755521]
+00 00 85 01 00 00 6F BE 7F C1 
+01 03 21 01 06 A9 02 04 B5 41     09 41 6C 61 72 6D 5F 31 30 36 
+S5F1 E2H Wbit(True) DeviceID(0) Systembytes(1874755521)
+<L [3]
+    <BIN [1] 6> *ALCD 
+    <U2 [1] 1205> *ALID 
+    <A [9] Alarm_106> *ALTX 
+>
+
+2024-01-22 17:00:57.5690[TRACE]Send [S5F2_H] Alarm Report Acknowledge,TrxId[202401221700575531],SystemBytes[1874755521]
+00 00 05 02 00 00 6F BE 7F C1 
+21 01 00 
+S5F2 H2E Wbit(False) DeviceID(0) Systembytes(1874755521)
+<BIN [1] 0> *ACKC5 
+
+2024-01-22 17:00:58.5784[TRACE]Receive [S6F11_E] Event Report Send,TrxId[202401221700585784],SystemBytes[982098702]
+00 00 86 0B 00 00 3A 89 A3 0E 
+01 03 A9 02 00 BA B1 04 00 00     00 71 01 01 01 02 A9 02 00 6E 
+01 04 25 01 00 25 01 00 25 01     00 25 01 01 
+S6F11 E2H Wbit(True) DeviceID(0) Systembytes(982098702)
+<L [3]
+    <U2 [1] 186> *DATAID 
+    <U4 [1] 113> *CEID 
+    <L [1]
+        <L [2]
+            <U2 [1] 110> *RPTID 
+            <L [4]
+                <B [1] 0> *VB 
+                <B [1] 0> *VB 
+                <B [1] 0> *VB 
+                <B [1] 1> *VB 
+            >
+        >
+    >
+>
+
+2024-01-22 17:00:58.7055[TRACE]Send [S6F12_H] Event Report Acknowledge,TrxId[202401221700585784],SystemBytes[982098702]
+00 00 06 0C 00 00 3A 89 A3 0E 
+21 01 00 
+S6F12 H2E Wbit(False) DeviceID(0) Systembytes(982098702)
+<BIN [1] 0> *ACKC6 
+
+2024-01-22 17:00:59.0133[TRACE]Receive [S5F1_E] Alarm Report Send,TrxId[202401221700590133],SystemBytes[3851396624]
+00 00 85 01 00 00 E5 8F A6 10 
+01 03 21 01 06 A9 02 04 B6 41     09 41 6C 61 72 6D 5F 31 30 37 
+S5F1 E2H Wbit(True) DeviceID(0) Systembytes(3851396624)
+<L [3]
+    <BIN [1] 6> *ALCD 
+    <U2 [1] 1206> *ALID 
+    <A [9] Alarm_107> *ALTX 
+>
+
+2024-01-22 17:00:59.0450[TRACE]Send [S5F2_H] Alarm Report Acknowledge,TrxId[202401221700590133],SystemBytes[3851396624]
+00 00 05 02 00 00 E5 8F A6 10 
+21 01 00 
+S5F2 H2E Wbit(False) DeviceID(0) Systembytes(3851396624)
+<BIN [1] 0> *ACKC5 
+
+2024-01-22 17:00:59.0928[TRACE]Receive [S6F11_E] Event Report Send,TrxId[202401221700590928],SystemBytes[3918768660]
+00 00 86 0B 00 00 E9 93 AA 14 
+01 03 A9 02 00 B4 B1 04 00 00     00 6E 01 01 01 02 A9 02 00 6E 
+01 04 25 01 01 25 01 00 25 01     00 25 01 00 
+S6F11 E2H Wbit(True) DeviceID(0) Systembytes(3918768660)
+<L [3]
+    <U2 [1] 180> *DATAID 
+    <U4 [1] 110> *CEID 
+    <L [1]
+        <L [2]
+            <U2 [1] 110> *RPTID 
+            <L [4]
+                <B [1] 1> *VB 
+                <B [1] 0> *VB 
+                <B [1] 0> *VB 
+                <B [1] 0> *VB 
+            >
+        >
+    >
+>
+
+2024-01-22 17:00:59.1563[TRACE]Send [S6F12_H] Event Report Acknowledge,TrxId[202401221700590928],SystemBytes[3918768660]
+00 00 06 0C 00 00 E9 93 AA 14 
+21 01 00 
+S6F12 H2E Wbit(False) DeviceID(0) Systembytes(3918768660)
+<BIN [1] 0> *ACKC6 
+
+2024-01-22 17:01:12.5026[TRACE]Receive [S5F1_E] Alarm Report Send,TrxId[202401221701125026],SystemBytes[1582873604]
+00 00 85 01 00 00 5E 58 BC 04 
+01 03 21 01 86 A9 02 04 C6 41     09 41 6C 61 72 6D 5F 31 32 33 
+S5F1 E2H Wbit(True) DeviceID(0) Systembytes(1582873604)
+<L [3]
+    <BIN [1] 134> *ALCD 
+    <U2 [1] 1222> *ALID 
+    <A [9] Alarm_123> *ALTX 
+>
+
+2024-01-22 17:01:12.5648[TRACE]Send [S5F2_H] Alarm Report Acknowledge,TrxId[202401221701125026],SystemBytes[1582873604]
+00 00 05 02 00 00 5E 58 BC 04 
+21 01 00 
+S5F2 H2E Wbit(False) DeviceID(0) Systembytes(1582873604)
+<BIN [1] 0> *ACKC5 
+
+2024-01-22 17:01:13.4432[TRACE]Receive [S5F1_E] Alarm Report Send,TrxId[202401221701134432],SystemBytes[3900379889]
+00 00 85 01 00 00 E8 7B 12 F1 
+01 03 21 01 86 A9 02 04 C5 41     09 41 6C 61 72 6D 5F 31 32 32 
+S5F1 E2H Wbit(True) DeviceID(0) Systembytes(3900379889)
+<L [3]
+    <BIN [1] 134> *ALCD 
+    <U2 [1] 1221> *ALID 
+    <A [9] Alarm_122> *ALTX 
+>
+
+2024-01-22 17:01:13.5705[TRACE]Send [S5F2_H] Alarm Report Acknowledge,TrxId[202401221701134432],SystemBytes[3900379889]
+00 00 05 02 00 00 E8 7B 12 F1 
+21 01 00 
+S5F2 H2E Wbit(False) DeviceID(0) Systembytes(3900379889)
+<BIN [1] 0> *ACKC5 
+
+2024-01-22 17:01:14.6858[TRACE]Send [S2F15_H] Set Equipment Constants,TrxId[202401221701146693],SystemBytes[60]
+00 00 82 0F 00 00 00 00 00 3C 
+01 0A 01 02 B1 04 00 00 04 B0     A9 02 00 00 01 02 B1 04 00 00 
+04 B1 A9 02 00 02 01 02 B1 04     00 00 04 B3 A9 02 00 01 01 02 
+B1 04 00 00 04 BA 41 0C 31 32     33 34 35 36 37 38 39 30 31 32 
+01 02 B1 04 00 00 04 C4 41 0C     31 32 33 34 35 36 37 38 39 30 
+31 32 01 02 B1 04 00 00 04 CE     41 04 74 65 73 74 01 02 B1 04 
+00 00 04 E2 A9 02 00 01 01 02     B1 04 00 00 08 05 25 01 01 01 
+02 B1 04 00 00 08 06 25 01 00     01 02 B1 04 00 00 08 08 25 01 
+00 
+S2F15 H2E Wbit(True) DeviceID(0) Systembytes(60)
+<L [10]
+    <L [2]
+        <U4 [1] 1200> *ECID 
+        <U2 [1] 0> *ECID 
+    >
+    <L [2]
+        <U4 [1] 1201> *ECID 
+        <U2 [1] 2> *ECID 
+    >
+    <L [2]
+        <U4 [1] 1203> *ECID 
+        <U2 [1] 1> *ECID 
+    >
+    <L [2]
+        <U4 [1] 1210> *ECID 
+        <A [12] 123456789012> *ECID 
+    >
+    <L [2]
+        <U4 [1] 1220> *ECID 
+        <A [12] 123456789012> *ECID 
+    >
+    <L [2]
+        <U4 [1] 1230> *ECID 
+        <A [4] test> *ECID 
+    >
+    <L [2]
+        <U4 [1] 1250> *ECID 
+        <U2 [1] 1> *ECID 
+    >
+    <L [2]
+        <U4 [1] 2053> *ECID 
+        <B [1] 1> *ECID 
+    >
+    <L [2]
+        <U4 [1] 2054> *ECID 
+        <B [1] 0> *ECID 
+    >
+    <L [2]
+        <U4 [1] 2056> *ECID 
+        <B [1] 0> *ECID 
+    >
+>
+
+2024-01-22 17:01:14.7962[TRACE]Receive [S2F16_E] ,TrxId[202401221701146693],SystemBytes[60]
+00 00 02 10 00 00 00 00 00 3C 
+21 01 00 
+S2F16 E2H Wbit(False) DeviceID(0) Systembytes(60)
+<BIN [1] 0> *ECACK 
+
+2024-01-22 17:01:14.9056[TRACE]Receive [S5F1_E] Alarm Report Send,TrxId[202401221701149056],SystemBytes[4001168469]
+00 00 85 01 00 00 EE 7C FC 55 
+01 03 21 01 86 A9 02 04 DB 41     09 41 6C 61 72 6D 5F 31 34 34 
+S5F1 E2H Wbit(True) DeviceID(0) Systembytes(4001168469)
+<L [3]
+    <BIN [1] 134> *ALCD 
+    <U2 [1] 1243> *ALID 
+    <A [9] Alarm_144> *ALTX 
+>
+
+2024-01-22 17:01:15.0018[TRACE]Send [S5F2_H] Alarm Report Acknowledge,TrxId[202401221701149056],SystemBytes[4001168469]
+00 00 05 02 00 00 EE 7C FC 55 
+21 01 00 
+S5F2 H2E Wbit(False) DeviceID(0) Systembytes(4001168469)
+<BIN [1] 0> *ACKC5 
+
+2024-01-22 17:01:19.2748[TRACE]Receive [S5F1_E] Alarm Report Send,TrxId[202401221701192748],SystemBytes[1750659390]
+00 00 85 01 00 00 68 58 F1 3E 
+01 03 21 01 06 A9 02 04 C5 41     09 41 6C 61 72 6D 5F 31 32 32 
+S5F1 E2H Wbit(True) DeviceID(0) Systembytes(1750659390)
+<L [3]
+    <BIN [1] 6> *ALCD 
+    <U2 [1] 1221> *ALID 
+    <A [9] Alarm_122> *ALTX 
+>
+
+2024-01-22 17:01:19.3548[TRACE]Send [S5F2_H] Alarm Report Acknowledge,TrxId[202401221701192748],SystemBytes[1750659390]
+00 00 05 02 00 00 68 58 F1 3E 
+21 01 00 
+S5F2 H2E Wbit(False) DeviceID(0) Systembytes(1750659390)
+<BIN [1] 0> *ACKC5 
+
+2024-01-22 17:01:19.3707[TRACE]Receive [S5F1_E] Alarm Report Send,TrxId[202401221701193707],SystemBytes[1818031426]
+00 00 85 01 00 00 6C 5C F5 42 
+01 03 21 01 06 A9 02 04 C6 41     09 41 6C 61 72 6D 5F 31 32 33 
+S5F1 E2H Wbit(True) DeviceID(0) Systembytes(1818031426)
+<L [3]
+    <BIN [1] 6> *ALCD 
+    <U2 [1] 1222> *ALID 
+    <A [9] Alarm_123> *ALTX 
+>
+
+2024-01-22 17:01:19.4662[TRACE]Send [S5F2_H] Alarm Report Acknowledge,TrxId[202401221701193707],SystemBytes[1818031426]
+00 00 05 02 00 00 6C 5C F5 42 
+21 01 00 
+S5F2 H2E Wbit(False) DeviceID(0) Systembytes(1818031426)
+<BIN [1] 0> *ACKC5 
+
+2024-01-22 17:01:19.9258[TRACE]Receive [S5F1_E] Alarm Report Send,TrxId[202401221701199258],SystemBytes[3075280795]
+00 00 85 01 00 00 B7 4D 0F 9B 
+01 03 21 01 06 A9 02 04 DB 41     09 41 6C 61 72 6D 5F 31 34 34 
+S5F1 E2H Wbit(True) DeviceID(0) Systembytes(3075280795)
+<L [3]
+    <BIN [1] 6> *ALCD 
+    <U2 [1] 1243> *ALID 
+    <A [9] Alarm_144> *ALTX 
+>
+
+2024-01-22 17:01:20.0221[TRACE]Send [S5F2_H] Alarm Report Acknowledge,TrxId[202401221701199258],SystemBytes[3075280795]
+00 00 05 02 00 00 B7 4D 0F 9B 
+21 01 00 
+S5F2 H2E Wbit(False) DeviceID(0) Systembytes(3075280795)
+<BIN [1] 0> *ACKC5 
+
+2024-01-22 17:01:34.6945[TRACE]Receive [S5F1_E] Alarm Report Send,TrxId[202401221701346945],SystemBytes[1866527284]
+00 00 85 01 00 00 6F 40 F2 34 
+01 03 21 01 86 A9 02 04 C5 41     09 41 6C 61 72 6D 5F 31 32 32 
+S5F1 E2H Wbit(True) DeviceID(0) Systembytes(1866527284)
+<L [3]
+    <BIN [1] 134> *ALCD 
+    <U2 [1] 1221> *ALID 
+    <A [9] Alarm_122> *ALTX 
+>
+
+2024-01-22 17:01:34.7260[TRACE]Send [S5F2_H] Alarm Report Acknowledge,TrxId[202401221701346945],SystemBytes[1866527284]
+00 00 05 02 00 00 6F 40 F2 34 
+21 01 00 
+S5F2 H2E Wbit(False) DeviceID(0) Systembytes(1866527284)
+<BIN [1] 0> *ACKC5 
+
+2024-01-22 17:01:34.7419[TRACE]Receive [S5F1_E] Alarm Report Send,TrxId[202401221701347419],SystemBytes[1933899320]
+00 00 85 01 00 00 73 44 F6 38 
+01 03 21 01 86 A9 02 04 C6 41     09 41 6C 61 72 6D 5F 31 32 33 
+S5F1 E2H Wbit(True) DeviceID(0) Systembytes(1933899320)
+<L [3]
+    <BIN [1] 134> *ALCD 
+    <U2 [1] 1222> *ALID 
+    <A [9] Alarm_123> *ALTX 
+>
+
+2024-01-22 17:01:34.8368[TRACE]Send [S5F2_H] Alarm Report Acknowledge,TrxId[202401221701347419],SystemBytes[1933899320]
+00 00 05 02 00 00 73 44 F6 38 
+21 01 00 
+S5F2 H2E Wbit(False) DeviceID(0) Systembytes(1933899320)
+<BIN [1] 0> *ACKC5 
+
+2024-01-22 17:01:35.4145[TRACE]Send [S1F1_H] AreYouThereRequest,TrxId[2024012217012235323],SystemBytes[61]
+00 00 81 01 00 00 00 00 00 3D 
+
+S1F1 H2E Wbit(True) DeviceID(0) Systembytes(61)
+
+2024-01-22 17:01:35.4145[TRACE]Receive [S1F2_E] OnlineData,TrxId[2024012217012235323],SystemBytes[61]
+00 00 01 02 00 00 00 00 00 3D 
+01 02 41 12 50 45 47 41 54 52     4F 4E 5F 50 61 6E 65 6C 54 72 
+61 79 41 05 31 2E 30 2E 30 
+S1F2 E2H Wbit(False) DeviceID(0) Systembytes(61)
+<L [2]
+    <A [18] PEGATRON_PanelTray> *MDLN 
+    <A [5] 1.0.0> *SOFTREV 
+>
+
+2024-01-22 17:01:37.0559[TRACE]Receive [S5F1_E] Alarm Report Send,TrxId[202401221701370559],SystemBytes[89907791]
+00 00 85 01 00 00 05 5B E2 4F 
+01 03 21 01 06 A9 02 04 C5 41     09 41 6C 61 72 6D 5F 31 32 32 
+S5F1 E2H Wbit(True) DeviceID(0) Systembytes(89907791)
+<L [3]
+    <BIN [1] 6> *ALCD 
+    <U2 [1] 1221> *ALID 
+    <A [9] Alarm_122> *ALTX 
+>
+
+2024-01-22 17:01:37.1633[TRACE]Send [S5F2_H] Alarm Report Acknowledge,TrxId[202401221701370559],SystemBytes[89907791]
+00 00 05 02 00 00 05 5B E2 4F 
+21 01 00 
+S5F2 H2E Wbit(False) DeviceID(0) Systembytes(89907791)
+<BIN [1] 0> *ACKC5 
+
+2024-01-22 17:01:37.1946[TRACE]Receive [S5F1_E] Alarm Report Send,TrxId[202401221701371946],SystemBytes[157279827]
+00 00 85 01 00 00 09 5F E6 53 
+01 03 21 01 06 A9 02 04 C6 41     09 41 6C 61 72 6D 5F 31 32 33 
+S5F1 E2H Wbit(True) DeviceID(0) Systembytes(157279827)
+<L [3]
+    <BIN [1] 6> *ALCD 
+    <U2 [1] 1222> *ALID 
+    <A [9] Alarm_123> *ALTX 
+>
+
+2024-01-22 17:01:37.2739[TRACE]Send [S5F2_H] Alarm Report Acknowledge,TrxId[202401221701371946],SystemBytes[157279827]
+00 00 05 02 00 00 09 5F E6 53 
+21 01 00 
+S5F2 H2E Wbit(False) DeviceID(0) Systembytes(157279827)
+<BIN [1] 0> *ACKC5 
+
+2024-01-22 17:01:52.2064[TRACE]Receive [S5F1_E] Alarm Report Send,TrxId[202401221701522064],SystemBytes[1099393732]
+00 00 85 01 00 00 41 87 6A C4 
+01 03 21 01 86 A9 02 04 C5 41     09 41 6C 61 72 6D 5F 31 32 32 
+S5F1 E2H Wbit(True) DeviceID(0) Systembytes(1099393732)
+<L [3]
+    <BIN [1] 134> *ALCD 
+    <U2 [1] 1221> *ALID 
+    <A [9] Alarm_122> *ALTX 
+>
+
+2024-01-22 17:01:52.3178[TRACE]Send [S5F2_H] Alarm Report Acknowledge,TrxId[202401221701522064],SystemBytes[1099393732]
+00 00 05 02 00 00 41 87 6A C4 
+21 01 00 
+S5F2 H2E Wbit(False) DeviceID(0) Systembytes(1099393732)
+<BIN [1] 0> *ACKC5 
+
+2024-01-22 17:01:52.3340[TRACE]Receive [S5F1_E] Alarm Report Send,TrxId[202401221701523340],SystemBytes[1166765768]
+00 00 85 01 00 00 45 8B 6E C8 
+01 03 21 01 86 A9 02 04 C6 41     09 41 6C 61 72 6D 5F 31 32 33 
+S5F1 E2H Wbit(True) DeviceID(0) Systembytes(1166765768)
+<L [3]
+    <BIN [1] 134> *ALCD 
+    <U2 [1] 1222> *ALID 
+    <A [9] Alarm_123> *ALTX 
+>
+
+2024-01-22 17:01:52.4309[TRACE]Send [S5F2_H] Alarm Report Acknowledge,TrxId[202401221701523340],SystemBytes[1166765768]
+00 00 05 02 00 00 45 8B 6E C8 
+21 01 00 
+S5F2 H2E Wbit(False) DeviceID(0) Systembytes(1166765768)
+<BIN [1] 0> *ACKC5 
+
+2024-01-22 17:01:53.5807[TRACE]Receive [S5F1_E] Alarm Report Send,TrxId[202401221701535807],SystemBytes[3994298881]
+00 00 85 01 00 00 EE 14 2A 01 
+01 03 21 01 06 A9 02 04 C5 41     09 41 6C 61 72 6D 5F 31 32 32 
+S5F1 E2H Wbit(True) DeviceID(0) Systembytes(3994298881)
+<L [3]
+    <BIN [1] 6> *ALCD 
+    <U2 [1] 1221> *ALID 
+    <A [9] Alarm_122> *ALTX 
+>
+
+2024-01-22 17:01:53.6593[TRACE]Send [S5F2_H] Alarm Report Acknowledge,TrxId[202401221701535807],SystemBytes[3994298881]
+00 00 05 02 00 00 EE 14 2A 01 
+21 01 00 
+S5F2 H2E Wbit(False) DeviceID(0) Systembytes(3994298881)
+<BIN [1] 0> *ACKC5 
+
+2024-01-22 17:01:53.6754[TRACE]Receive [S5F1_E] Alarm Report Send,TrxId[202401221701536754],SystemBytes[4061670917]
+00 00 85 01 00 00 F2 18 2E 05 
+01 03 21 01 06 A9 02 04 C6 41     09 41 6C 61 72 6D 5F 31 32 33 
+S5F1 E2H Wbit(True) DeviceID(0) Systembytes(4061670917)
+<L [3]
+    <BIN [1] 6> *ALCD 
+    <U2 [1] 1222> *ALID 
+    <A [9] Alarm_123> *ALTX 
+>
+
+2024-01-22 17:01:53.7706[TRACE]Send [S5F2_H] Alarm Report Acknowledge,TrxId[202401221701536754],SystemBytes[4061670917]
+00 00 05 02 00 00 F2 18 2E 05 
+21 01 00 
+S5F2 H2E Wbit(False) DeviceID(0) Systembytes(4061670917)
+<BIN [1] 0> *ACKC5 
+
+2024-01-22 17:02:02.6246[TRACE]Send [S2F15_H] Set Equipment Constants,TrxId[202401221702025778],SystemBytes[63]
+00 00 82 0F 00 00 00 00 00 3F 
+01 0A 01 02 B1 04 00 00 04 B0     A9 02 00 00 01 02 B1 04 00 00 
+04 B1 A9 02 00 02 01 02 B1 04     00 00 04 B3 A9 02 00 01 01 02 
+B1 04 00 00 04 BA 41 0C 31 32     33 34 35 36 37 38 39 30 31 32 
+01 02 B1 04 00 00 04 C4 41 0C     31 32 33 34 35 36 37 38 39 30 
+31 32 01 02 B1 04 00 00 04 CE     41 04 74 65 73 74 01 02 B1 04 
+00 00 04 E2 A9 02 00 01 01 02     B1 04 00 00 08 05 25 01 01 01 
+02 B1 04 00 00 08 06 25 01 00     01 02 B1 04 00 00 08 08 25 01 
+00 
+S2F15 H2E Wbit(True) DeviceID(0) Systembytes(63)
+<L [10]
+    <L [2]
+        <U4 [1] 1200> *ECID 
+        <U2 [1] 0> *ECID 
+    >
+    <L [2]
+        <U4 [1] 1201> *ECID 
+        <U2 [1] 2> *ECID 
+    >
+    <L [2]
+        <U4 [1] 1203> *ECID 
+        <U2 [1] 1> *ECID 
+    >
+    <L [2]
+        <U4 [1] 1210> *ECID 
+        <A [12] 123456789012> *ECID 
+    >
+    <L [2]
+        <U4 [1] 1220> *ECID 
+        <A [12] 123456789012> *ECID 
+    >
+    <L [2]
+        <U4 [1] 1230> *ECID 
+        <A [4] test> *ECID 
+    >
+    <L [2]
+        <U4 [1] 1250> *ECID 
+        <U2 [1] 1> *ECID 
+    >
+    <L [2]
+        <U4 [1] 2053> *ECID 
+        <B [1] 1> *ECID 
+    >
+    <L [2]
+        <U4 [1] 2054> *ECID 
+        <B [1] 0> *ECID 
+    >
+    <L [2]
+        <U4 [1] 2056> *ECID 
+        <B [1] 0> *ECID 
+    >
+>
+
+2024-01-22 17:02:02.7496[TRACE]Receive [S2F16_E] ,TrxId[202401221702025778],SystemBytes[63]
+00 00 02 10 00 00 00 00 00 3F 
+21 01 00 
+S2F16 E2H Wbit(False) DeviceID(0) Systembytes(63)
+<BIN [1] 0> *ECACK 
+
+2024-01-22 17:02:11.6471[TRACE]Receive [S5F1_E] Alarm Report Send,TrxId[202401221702116471],SystemBytes[3079366840]
+00 00 85 01 00 00 B7 8B 68 B8 
+01 03 21 01 86 A9 02 04 C5 41     09 41 6C 61 72 6D 5F 31 32 32 
+S5F1 E2H Wbit(True) DeviceID(0) Systembytes(3079366840)
+<L [3]
+    <BIN [1] 134> *ALCD 
+    <U2 [1] 1221> *ALID 
+    <A [9] Alarm_122> *ALTX 
+>
+
+2024-01-22 17:02:11.6784[TRACE]Send [S5F2_H] Alarm Report Acknowledge,TrxId[202401221702116471],SystemBytes[3079366840]
+00 00 05 02 00 00 B7 8B 68 B8 
+21 01 00 
+S5F2 H2E Wbit(False) DeviceID(0) Systembytes(3079366840)
+<BIN [1] 0> *ACKC5 
+
+2024-01-22 17:02:11.7099[TRACE]Receive [S5F1_E] Alarm Report Send,TrxId[202401221702117099],SystemBytes[3146738876]
+00 00 85 01 00 00 BB 8F 6C BC 
+01 03 21 01 86 A9 02 04 C6 41     09 41 6C 61 72 6D 5F 31 32 33 
+S5F1 E2H Wbit(True) DeviceID(0) Systembytes(3146738876)
+<L [3]
+    <BIN [1] 134> *ALCD 
+    <U2 [1] 1222> *ALID 
+    <A [9] Alarm_123> *ALTX 
+>
+
+2024-01-22 17:02:11.8062[TRACE]Send [S5F2_H] Alarm Report Acknowledge,TrxId[202401221702117099],SystemBytes[3146738876]
+00 00 05 02 00 00 BB 8F 6C BC 
+21 01 00 
+S5F2 H2E Wbit(False) DeviceID(0) Systembytes(3146738876)
+<BIN [1] 0> *ACKC5 
+
+2024-01-22 17:02:13.2981[TRACE]Receive [S5F1_E] Alarm Report Send,TrxId[202401221702132973],SystemBytes[1586951875]
+00 00 85 01 00 00 5E 96 F6 C3 
+01 03 21 01 06 A9 02 04 C5 41     09 41 6C 61 72 6D 5F 31 32 32 
+S5F1 E2H Wbit(True) DeviceID(0) Systembytes(1586951875)
+<L [3]
+    <BIN [1] 6> *ALCD 
+    <U2 [1] 1221> *ALID 
+    <A [9] Alarm_122> *ALTX 
+>
+
+2024-01-22 17:02:13.3607[TRACE]Send [S5F2_H] Alarm Report Acknowledge,TrxId[202401221702132973],SystemBytes[1586951875]
+00 00 05 02 00 00 5E 96 F6 C3 
+21 01 00 
+S5F2 H2E Wbit(False) DeviceID(0) Systembytes(1586951875)
+<BIN [1] 0> *ACKC5 
+
+2024-01-22 17:02:13.3770[TRACE]Receive [S5F1_E] Alarm Report Send,TrxId[202401221702133770],SystemBytes[1654323911]
+00 00 85 01 00 00 62 9A FA C7 
+01 03 21 01 06 A9 02 04 C6 41     09 41 6C 61 72 6D 5F 31 32 33 
+S5F1 E2H Wbit(True) DeviceID(0) Systembytes(1654323911)
+<L [3]
+    <BIN [1] 6> *ALCD 
+    <U2 [1] 1222> *ALID 
+    <A [9] Alarm_123> *ALTX 
+>
+
+2024-01-22 17:02:13.4743[TRACE]Send [S5F2_H] Alarm Report Acknowledge,TrxId[202401221702133770],SystemBytes[1654323911]
+00 00 05 02 00 00 62 9A FA C7 
+21 01 00 
+S5F2 H2E Wbit(False) DeviceID(0) Systembytes(1654323911)
+<BIN [1] 0> *ACKC5 
+
+2024-01-22 17:02:34.8493[TRACE]Send [S2F15_H] Set Equipment Constants,TrxId[202401221702347741],SystemBytes[64]
+00 00 82 0F 00 00 00 00 00 40 
+01 0A 01 02 B1 04 00 00 04 B0     A9 02 00 00 01 02 B1 04 00 00 
+04 B1 A9 02 00 02 01 02 B1 04     00 00 04 B3 A9 02 00 01 01 02 
+B1 04 00 00 04 BA 41 0C 31 32     33 34 35 36 37 38 39 30 31 32 
+01 02 B1 04 00 00 04 C4 41 0C     31 32 33 34 35 36 37 38 39 30 
+31 32 01 02 B1 04 00 00 04 CE     41 04 74 65 73 74 01 02 B1 04 
+00 00 04 E2 A9 02 00 01 01 02     B1 04 00 00 08 05 25 01 01 01 
+02 B1 04 00 00 08 06 25 01 00     01 02 B1 04 00 00 08 08 25 01 
+00 
+S2F15 H2E Wbit(True) DeviceID(0) Systembytes(64)
+<L [10]
+    <L [2]
+        <U4 [1] 1200> *ECID 
+        <U2 [1] 0> *ECID 
+    >
+    <L [2]
+        <U4 [1] 1201> *ECID 
+        <U2 [1] 2> *ECID 
+    >
+    <L [2]
+        <U4 [1] 1203> *ECID 
+        <U2 [1] 1> *ECID 
+    >
+    <L [2]
+        <U4 [1] 1210> *ECID 
+        <A [12] 123456789012> *ECID 
+    >
+    <L [2]
+        <U4 [1] 1220> *ECID 
+        <A [12] 123456789012> *ECID 
+    >
+    <L [2]
+        <U4 [1] 1230> *ECID 
+        <A [4] test> *ECID 
+    >
+    <L [2]
+        <U4 [1] 1250> *ECID 
+        <U2 [1] 1> *ECID 
+    >
+    <L [2]
+        <U4 [1] 2053> *ECID 
+        <B [1] 1> *ECID 
+    >
+    <L [2]
+        <U4 [1] 2054> *ECID 
+        <B [1] 0> *ECID 
+    >
+    <L [2]
+        <U4 [1] 2056> *ECID 
+        <B [1] 0> *ECID 
+    >
+>
+
+2024-01-22 17:02:34.9612[TRACE]Receive [S2F16_E] ,TrxId[202401221702347741],SystemBytes[64]
+00 00 02 10 00 00 00 00 00 40 
+21 01 00 
+S2F16 E2H Wbit(False) DeviceID(0) Systembytes(64)
+<BIN [1] 0> *ECACK 
+
+2024-01-22 17:02:35.8707[TRACE]Send [S1F1_H] AreYouThereRequest,TrxId[2024012217022235822],SystemBytes[65]
+00 00 81 01 00 00 00 00 00 41 
+
+S1F1 H2E Wbit(True) DeviceID(0) Systembytes(65)
+
+2024-01-22 17:02:35.8865[TRACE]Receive [S1F2_E] OnlineData,TrxId[2024012217022235822],SystemBytes[65]
+00 00 01 02 00 00 00 00 00 41 
+01 02 41 12 50 45 47 41 54 52     4F 4E 5F 50 61 6E 65 6C 54 72 
+61 79 41 05 31 2E 30 2E 30 
+S1F2 E2H Wbit(False) DeviceID(0) Systembytes(65)
+<L [2]
+    <A [18] PEGATRON_PanelTray> *MDLN 
+    <A [5] 1.0.0> *SOFTREV 
+>
+
+2024-01-22 17:02:36.6557[TRACE]Receive [S5F1_E] Alarm Report Send,TrxId[202401221702366557],SystemBytes[417932966]
+00 00 85 01 00 00 18 E9 26 A6 
+01 03 21 01 86 A9 02 04 C5 41     09 41 6C 61 72 6D 5F 31 32 32 
+S5F1 E2H Wbit(True) DeviceID(0) Systembytes(417932966)
+<L [3]
+    <BIN [1] 134> *ALCD 
+    <U2 [1] 1221> *ALID 
+    <A [9] Alarm_122> *ALTX 
+>
+
+2024-01-22 17:02:36.7510[TRACE]Send [S5F2_H] Alarm Report Acknowledge,TrxId[202401221702366557],SystemBytes[417932966]
+00 00 05 02 00 00 18 E9 26 A6 
+21 01 00 
+S5F2 H2E Wbit(False) DeviceID(0) Systembytes(417932966)
+<BIN [1] 0> *ACKC5 
+
+2024-01-22 17:02:36.7668[TRACE]Receive [S5F1_E] Alarm Report Send,TrxId[202401221702367668],SystemBytes[485305002]
+00 00 85 01 00 00 1C ED 2A AA 
+01 03 21 01 86 A9 02 04 C6 41     09 41 6C 61 72 6D 5F 31 32 33 
+S5F1 E2H Wbit(True) DeviceID(0) Systembytes(485305002)
+<L [3]
+    <BIN [1] 134> *ALCD 
+    <U2 [1] 1222> *ALID 
+    <A [9] Alarm_123> *ALTX 
+>
+
+2024-01-22 17:02:36.8626[TRACE]Send [S5F2_H] Alarm Report Acknowledge,TrxId[202401221702367668],SystemBytes[485305002]
+00 00 05 02 00 00 1C ED 2A AA 
+21 01 00 
+S5F2 H2E Wbit(False) DeviceID(0) Systembytes(485305002)
+<BIN [1] 0> *ACKC5 
+
+2024-01-22 17:02:37.9192[TRACE]Receive [S5F1_E] Alarm Report Send,TrxId[202401221702379192],SystemBytes[411159048]
+00 00 85 01 00 00 18 81 CA 08 
+01 03 21 01 06 A9 02 04 C5 41     09 41 6C 61 72 6D 5F 31 32 32 
+S5F1 E2H Wbit(True) DeviceID(0) Systembytes(411159048)
+<L [3]
+    <BIN [1] 6> *ALCD 
+    <U2 [1] 1221> *ALID 
+    <A [9] Alarm_122> *ALTX 
+>
+
+2024-01-22 17:02:37.9665[TRACE]Send [S5F2_H] Alarm Report Acknowledge,TrxId[202401221702379192],SystemBytes[411159048]
+00 00 05 02 00 00 18 81 CA 08 
+21 01 00 
+S5F2 H2E Wbit(False) DeviceID(0) Systembytes(411159048)
+<BIN [1] 0> *ACKC5 
+
+2024-01-22 17:02:37.9825[TRACE]Receive [S5F1_E] Alarm Report Send,TrxId[202401221702379825],SystemBytes[478531084]
+00 00 85 01 00 00 1C 85 CE 0C 
+01 03 21 01 06 A9 02 04 C6 41     09 41 6C 61 72 6D 5F 31 32 33 
+S5F1 E2H Wbit(True) DeviceID(0) Systembytes(478531084)
+<L [3]
+    <BIN [1] 6> *ALCD 
+    <U2 [1] 1222> *ALID 
+    <A [9] Alarm_123> *ALTX 
+>
+
+2024-01-22 17:02:38.0771[TRACE]Send [S5F2_H] Alarm Report Acknowledge,TrxId[202401221702379825],SystemBytes[478531084]
+00 00 05 02 00 00 1C 85 CE 0C 
+21 01 00 
+S5F2 H2E Wbit(False) DeviceID(0) Systembytes(478531084)
+<BIN [1] 0> *ACKC5 
+
+2024-01-22 17:02:49.0679[TRACE]Send [S2F15_H] Set Equipment Constants,TrxId[202401221702489858],SystemBytes[66]
+00 00 82 0F 00 00 00 00 00 42 
+01 0A 01 02 B1 04 00 00 04 B0     A9 02 00 00 01 02 B1 04 00 00 
+04 B1 A9 02 00 02 01 02 B1 04     00 00 04 B3 A9 02 00 01 01 02 
+B1 04 00 00 04 BA 41 0C 31 32     33 34 35 36 37 38 39 30 31 32 
+01 02 B1 04 00 00 04 C4 41 0C     31 32 33 34 35 36 37 38 39 30 
+31 32 01 02 B1 04 00 00 04 CE     41 04 74 65 73 74 01 02 B1 04 
+00 00 04 E2 A9 02 00 01 01 02     B1 04 00 00 08 05 25 01 00 01 
+02 B1 04 00 00 08 06 25 01 00     01 02 B1 04 00 00 08 08 25 01 
+00 
+S2F15 H2E Wbit(True) DeviceID(0) Systembytes(66)
+<L [10]
+    <L [2]
+        <U4 [1] 1200> *ECID 
+        <U2 [1] 0> *ECID 
+    >
+    <L [2]
+        <U4 [1] 1201> *ECID 
+        <U2 [1] 2> *ECID 
+    >
+    <L [2]
+        <U4 [1] 1203> *ECID 
+        <U2 [1] 1> *ECID 
+    >
+    <L [2]
+        <U4 [1] 1210> *ECID 
+        <A [12] 123456789012> *ECID 
+    >
+    <L [2]
+        <U4 [1] 1220> *ECID 
+        <A [12] 123456789012> *ECID 
+    >
+    <L [2]
+        <U4 [1] 1230> *ECID 
+        <A [4] test> *ECID 
+    >
+    <L [2]
+        <U4 [1] 1250> *ECID 
+        <U2 [1] 1> *ECID 
+    >
+    <L [2]
+        <U4 [1] 2053> *ECID 
+        <B [1] 0> *ECID 
+    >
+    <L [2]
+        <U4 [1] 2054> *ECID 
+        <B [1] 0> *ECID 
+    >
+    <L [2]
+        <U4 [1] 2056> *ECID 
+        <B [1] 0> *ECID 
+    >
+>
+
+2024-01-22 17:02:49.1792[TRACE]Receive [S2F16_E] ,TrxId[202401221702489858],SystemBytes[66]
+00 00 02 10 00 00 00 00 00 42 
+21 01 00 
+S2F16 E2H Wbit(False) DeviceID(0) Systembytes(66)
+<BIN [1] 0> *ECACK 
+
+2024-01-22 17:02:53.1567[TRACE]Receive [S5F1_E] Alarm Report Send,TrxId[202401221702531567],SystemBytes[2001133882]
+00 00 85 01 00 00 77 46 E1 3A 
+01 03 21 01 86 A9 02 04 C5 41     09 41 6C 61 72 6D 5F 31 32 32 
+S5F1 E2H Wbit(True) DeviceID(0) Systembytes(2001133882)
+<L [3]
+    <BIN [1] 134> *ALCD 
+    <U2 [1] 1221> *ALID 
+    <A [9] Alarm_122> *ALTX 
+>
+
+2024-01-22 17:02:53.1884[TRACE]Send [S5F2_H] Alarm Report Acknowledge,TrxId[202401221702531567],SystemBytes[2001133882]
+00 00 05 02 00 00 77 46 E1 3A 
+21 01 00 
+S5F2 H2E Wbit(False) DeviceID(0) Systembytes(2001133882)
+<BIN [1] 0> *ACKC5 
+
+2024-01-22 17:02:53.2045[TRACE]Receive [S5F1_E] Alarm Report Send,TrxId[202401221702532045],SystemBytes[2068505918]
+00 00 85 01 00 00 7B 4A E5 3E 
+01 03 21 01 86 A9 02 04 C6 41     09 41 6C 61 72 6D 5F 31 32 33 
+S5F1 E2H Wbit(True) DeviceID(0) Systembytes(2068505918)
+<L [3]
+    <BIN [1] 134> *ALCD 
+    <U2 [1] 1222> *ALID 
+    <A [9] Alarm_123> *ALTX 
+>
+
+2024-01-22 17:02:53.3005[TRACE]Send [S5F2_H] Alarm Report Acknowledge,TrxId[202401221702532045],SystemBytes[2068505918]
+00 00 05 02 00 00 7B 4A E5 3E 
+21 01 00 
+S5F2 H2E Wbit(False) DeviceID(0) Systembytes(2068505918)
+<BIN [1] 0> *ACKC5 
+
+2024-01-22 17:02:54.9561[TRACE]Receive [S5F1_E] Alarm Report Send,TrxId[202401221702549561],SystemBytes[3579159478]
+00 00 85 01 00 00 D5 55 A3 B6 
+01 03 21 01 06 A9 02 04 C5 41     09 41 6C 61 72 6D 5F 31 32 32 
+S5F1 E2H Wbit(True) DeviceID(0) Systembytes(3579159478)
+<L [3]
+    <BIN [1] 6> *ALCD 
+    <U2 [1] 1221> *ALID 
+    <A [9] Alarm_122> *ALTX 
+>
+
+2024-01-22 17:02:55.0616[TRACE]Send [S5F2_H] Alarm Report Acknowledge,TrxId[202401221702549561],SystemBytes[3579159478]
+00 00 05 02 00 00 D5 55 A3 B6 
+21 01 00 
+S5F2 H2E Wbit(False) DeviceID(0) Systembytes(3579159478)
+<BIN [1] 0> *ACKC5 
+
+2024-01-22 17:02:55.0777[TRACE]Receive [S5F1_E] Alarm Report Send,TrxId[202401221702550777],SystemBytes[3646531514]
+00 00 85 01 00 00 D9 59 A7 BA 
+01 03 21 01 06 A9 02 04 C6 41     09 41 6C 61 72 6D 5F 31 32 33 
+S5F1 E2H Wbit(True) DeviceID(0) Systembytes(3646531514)
+<L [3]
+    <BIN [1] 6> *ALCD 
+    <U2 [1] 1222> *ALID 
+    <A [9] Alarm_123> *ALTX 
+>
+
+2024-01-22 17:02:55.1899[TRACE]Send [S5F2_H] Alarm Report Acknowledge,TrxId[202401221702550777],SystemBytes[3646531514]
+00 00 05 02 00 00 D9 59 A7 BA 
+21 01 00 
+S5F2 H2E Wbit(False) DeviceID(0) Systembytes(3646531514)
+<BIN [1] 0> *ACKC5 
+
+2024-01-22 17:02:57.1764[TRACE]Send [S2F15_H] Set Equipment Constants,TrxId[202401221702570708],SystemBytes[68]
+00 00 82 0F 00 00 00 00 00 44 
+01 0A 01 02 B1 04 00 00 04 B0     A9 02 00 00 01 02 B1 04 00 00 
+04 B1 A9 02 00 02 01 02 B1 04     00 00 04 B3 A9 02 00 01 01 02 
+B1 04 00 00 04 BA 41 0C 31 32     33 34 35 36 37 38 39 30 31 32 
+01 02 B1 04 00 00 04 C4 41 0C     31 32 33 34 35 36 37 38 39 30 
+31 32 01 02 B1 04 00 00 04 CE     41 04 74 65 73 74 01 02 B1 04 
+00 00 04 E2 A9 02 00 01 01 02     B1 04 00 00 08 05 25 01 01 01 
+02 B1 04 00 00 08 06 25 01 00     01 02 B1 04 00 00 08 08 25 01 
+00 
+S2F15 H2E Wbit(True) DeviceID(0) Systembytes(68)
+<L [10]
+    <L [2]
+        <U4 [1] 1200> *ECID 
+        <U2 [1] 0> *ECID 
+    >
+    <L [2]
+        <U4 [1] 1201> *ECID 
+        <U2 [1] 2> *ECID 
+    >
+    <L [2]
+        <U4 [1] 1203> *ECID 
+        <U2 [1] 1> *ECID 
+    >
+    <L [2]
+        <U4 [1] 1210> *ECID 
+        <A [12] 123456789012> *ECID 
+    >
+    <L [2]
+        <U4 [1] 1220> *ECID 
+        <A [12] 123456789012> *ECID 
+    >
+    <L [2]
+        <U4 [1] 1230> *ECID 
+        <A [4] test> *ECID 
+    >
+    <L [2]
+        <U4 [1] 1250> *ECID 
+        <U2 [1] 1> *ECID 
+    >
+    <L [2]
+        <U4 [1] 2053> *ECID 
+        <B [1] 1> *ECID 
+    >
+    <L [2]
+        <U4 [1] 2054> *ECID 
+        <B [1] 0> *ECID 
+    >
+    <L [2]
+        <U4 [1] 2056> *ECID 
+        <B [1] 0> *ECID 
+    >
+>
+
+2024-01-22 17:02:57.2769[TRACE]Receive [S2F16_E] ,TrxId[202401221702570708],SystemBytes[68]
+00 00 02 10 00 00 00 00 00 44 
+21 01 00 
+S2F16 E2H Wbit(False) DeviceID(0) Systembytes(68)
+<BIN [1] 0> *ECACK 
+
+2024-01-22 17:02:57.3471[TRACE]Receive [S5F1_E] Alarm Report Send,TrxId[202401221702573471],SystemBytes[859777463]
+00 00 85 01 00 00 33 3F 29 B7 
+01 03 21 01 86 A9 02 04 DB 41     09 41 6C 61 72 6D 5F 31 34 34 
+S5F1 E2H Wbit(True) DeviceID(0) Systembytes(859777463)
+<L [3]
+    <BIN [1] 134> *ALCD 
+    <U2 [1] 1243> *ALID 
+    <A [9] Alarm_144> *ALTX 
+>
+
+2024-01-22 17:02:57.3941[TRACE]Send [S5F2_H] Alarm Report Acknowledge,TrxId[202401221702573471],SystemBytes[859777463]
+00 00 05 02 00 00 33 3F 29 B7 
+21 01 00 
+S5F2 H2E Wbit(False) DeviceID(0) Systembytes(859777463)
+<BIN [1] 0> *ACKC5 
+
+2024-01-22 17:03:02.3897[TRACE]Receive [S5F1_E] Alarm Report Send,TrxId[202401221703023897],SystemBytes[582377780]
+00 00 85 01 00 00 22 B6 61 34 
+01 03 21 01 06 A9 02 04 DB 41     09 41 6C 61 72 6D 5F 31 34 34 
+S5F1 E2H Wbit(True) DeviceID(0) Systembytes(582377780)
+<L [3]
+    <BIN [1] 6> *ALCD 
+    <U2 [1] 1243> *ALID 
+    <A [9] Alarm_144> *ALTX 
+>
+
+2024-01-22 17:03:02.5006[TRACE]Send [S5F2_H] Alarm Report Acknowledge,TrxId[202401221703023897],SystemBytes[582377780]
+00 00 05 02 00 00 22 B6 61 34 
+21 01 00 
+S5F2 H2E Wbit(False) DeviceID(0) Systembytes(582377780)
+<BIN [1] 0> *ACKC5 
+
+2024-01-22 17:03:10.1620[TRACE]Receive [S5F1_E] Alarm Report Send,TrxId[202401221703101620],SystemBytes[1840475864]
+00 00 85 01 00 00 6D B3 6E D8 
+01 03 21 01 86 A9 02 04 C5 41     09 41 6C 61 72 6D 5F 31 32 32 
+S5F1 E2H Wbit(True) DeviceID(0) Systembytes(1840475864)
+<L [3]
+    <BIN [1] 134> *ALCD 
+    <U2 [1] 1221> *ALID 
+    <A [9] Alarm_122> *ALTX 
+>
+
+2024-01-22 17:03:10.2741[TRACE]Send [S5F2_H] Alarm Report Acknowledge,TrxId[202401221703101620],SystemBytes[1840475864]
+00 00 05 02 00 00 6D B3 6E D8 
+21 01 00 
+S5F2 H2E Wbit(False) DeviceID(0) Systembytes(1840475864)
+<BIN [1] 0> *ACKC5 
+
+2024-01-22 17:03:10.2900[TRACE]Receive [S5F1_E] Alarm Report Send,TrxId[202401221703102900],SystemBytes[1907847900]
+00 00 85 01 00 00 71 B7 72 DC 
+01 03 21 01 86 A9 02 04 C6 41     09 41 6C 61 72 6D 5F 31 32 33 
+S5F1 E2H Wbit(True) DeviceID(0) Systembytes(1907847900)
+<L [3]
+    <BIN [1] 134> *ALCD 
+    <U2 [1] 1222> *ALID 
+    <A [9] Alarm_123> *ALTX 
+>
+
+2024-01-22 17:03:10.3871[TRACE]Send [S5F2_H] Alarm Report Acknowledge,TrxId[202401221703102900],SystemBytes[1907847900]
+00 00 05 02 00 00 71 B7 72 DC 
+21 01 00 
+S5F2 H2E Wbit(False) DeviceID(0) Systembytes(1907847900)
+<BIN [1] 0> *ACKC5 
+
+2024-01-22 17:03:11.3585[TRACE]Receive [S5F1_E] Alarm Report Send,TrxId[202401221703113585],SystemBytes[3514218617]
+00 00 85 01 00 00 D1 76 B8 79 
+01 03 21 01 06 A9 02 04 C5 41     09 41 6C 61 72 6D 5F 31 32 32 
+S5F1 E2H Wbit(True) DeviceID(0) Systembytes(3514218617)
+<L [3]
+    <BIN [1] 6> *ALCD 
+    <U2 [1] 1221> *ALID 
+    <A [9] Alarm_122> *ALTX 
+>
+
+2024-01-22 17:03:11.4059[TRACE]Send [S5F2_H] Alarm Report Acknowledge,TrxId[202401221703113585],SystemBytes[3514218617]
+00 00 05 02 00 00 D1 76 B8 79 
+21 01 00 
+S5F2 H2E Wbit(False) DeviceID(0) Systembytes(3514218617)
+<BIN [1] 0> *ACKC5 
+
+2024-01-22 17:03:11.4222[TRACE]Receive [S5F1_E] Alarm Report Send,TrxId[202401221703114222],SystemBytes[3581590653]
+00 00 85 01 00 00 D5 7A BC 7D 
+01 03 21 01 06 A9 02 04 C6 41     09 41 6C 61 72 6D 5F 31 32 33 
+S5F1 E2H Wbit(True) DeviceID(0) Systembytes(3581590653)
+<L [3]
+    <BIN [1] 6> *ALCD 
+    <U2 [1] 1222> *ALID 
+    <A [9] Alarm_123> *ALTX 
+>
+
+2024-01-22 17:03:11.5177[TRACE]Send [S5F2_H] Alarm Report Acknowledge,TrxId[202401221703114222],SystemBytes[3581590653]
+00 00 05 02 00 00 D5 7A BC 7D 
+21 01 00 
+S5F2 H2E Wbit(False) DeviceID(0) Systembytes(3581590653)
+<BIN [1] 0> *ACKC5 
+
+2024-01-22 17:03:28.1318[TRACE]Receive [S5F1_E] Alarm Report Send,TrxId[202401221703281318],SystemBytes[1477316571]
+00 00 85 01 00 00 58 0E 0F DB 
+01 03 21 01 86 A9 02 04 C5 41     09 41 6C 61 72 6D 5F 31 32 32 
+S5F1 E2H Wbit(True) DeviceID(0) Systembytes(1477316571)
+<L [3]
+    <BIN [1] 134> *ALCD 
+    <U2 [1] 1221> *ALID 
+    <A [9] Alarm_122> *ALTX 
+>
+
+2024-01-22 17:03:28.2429[TRACE]Send [S5F2_H] Alarm Report Acknowledge,TrxId[202401221703281318],SystemBytes[1477316571]
+00 00 05 02 00 00 58 0E 0F DB 
+21 01 00 
+S5F2 H2E Wbit(False) DeviceID(0) Systembytes(1477316571)
+<BIN [1] 0> *ACKC5 
+
+2024-01-22 17:03:28.2591[TRACE]Receive [S5F1_E] Alarm Report Send,TrxId[202401221703282591],SystemBytes[1544688607]
+00 00 85 01 00 00 5C 12 13 DF 
+01 03 21 01 86 A9 02 04 C6 41     09 41 6C 61 72 6D 5F 31 32 33 
+S5F1 E2H Wbit(True) DeviceID(0) Systembytes(1544688607)
+<L [3]
+    <BIN [1] 134> *ALCD 
+    <U2 [1] 1222> *ALID 
+    <A [9] Alarm_123> *ALTX 
+>
+
+2024-01-22 17:03:28.3545[TRACE]Send [S5F2_H] Alarm Report Acknowledge,TrxId[202401221703282591],SystemBytes[1544688607]
+00 00 05 02 00 00 5C 12 13 DF 
+21 01 00 
+S5F2 H2E Wbit(False) DeviceID(0) Systembytes(1544688607)
+<BIN [1] 0> *ACKC5 
+
+2024-01-22 17:03:29.8244[TRACE]Receive [S5F1_E] Alarm Report Send,TrxId[202401221703298244],SystemBytes[1332026861]
+00 00 85 01 00 00 4F 65 1D ED 
+01 03 21 01 06 A9 02 04 C5 41     09 41 6C 61 72 6D 5F 31 32 32 
+S5F1 E2H Wbit(True) DeviceID(0) Systembytes(1332026861)
+<L [3]
+    <BIN [1] 6> *ALCD 
+    <U2 [1] 1221> *ALID 
+    <A [9] Alarm_122> *ALTX 
+>
+
+2024-01-22 17:03:29.9227[TRACE]Send [S5F2_H] Alarm Report Acknowledge,TrxId[202401221703298244],SystemBytes[1332026861]
+00 00 05 02 00 00 4F 65 1D ED 
+21 01 00 
+S5F2 H2E Wbit(False) DeviceID(0) Systembytes(1332026861)
+<BIN [1] 0> *ACKC5 
+
+2024-01-22 17:03:29.9386[TRACE]Receive [S5F1_E] Alarm Report Send,TrxId[202401221703299386],SystemBytes[1399398897]
+00 00 85 01 00 00 53 69 21 F1 
+01 03 21 01 06 A9 02 04 C6 41     09 41 6C 61 72 6D 5F 31 32 33 
+S5F1 E2H Wbit(True) DeviceID(0) Systembytes(1399398897)
+<L [3]
+    <BIN [1] 6> *ALCD 
+    <U2 [1] 1222> *ALID 
+    <A [9] Alarm_123> *ALTX 
+>
+
+2024-01-22 17:03:30.0344[TRACE]Send [S5F2_H] Alarm Report Acknowledge,TrxId[202401221703299386],SystemBytes[1399398897]
+00 00 05 02 00 00 53 69 21 F1 
+21 01 00 
+S5F2 H2E Wbit(False) DeviceID(0) Systembytes(1399398897)
+<BIN [1] 0> *ACKC5 
+
+2024-01-22 17:03:36.3764[TRACE]Send [S1F1_H] AreYouThereRequest,TrxId[2024012217032236360],SystemBytes[69]
+00 00 81 01 00 00 00 00 00 45 
+
+S1F1 H2E Wbit(True) DeviceID(0) Systembytes(69)
+
+2024-01-22 17:03:36.3925[TRACE]Receive [S1F2_E] OnlineData,TrxId[2024012217032236360],SystemBytes[69]
+00 00 01 02 00 00 00 00 00 45 
+01 02 41 12 50 45 47 41 54 52     4F 4E 5F 50 61 6E 65 6C 54 72 
+61 79 41 05 31 2E 30 2E 30 
+S1F2 E2H Wbit(False) DeviceID(0) Systembytes(69)
+<L [2]
+    <A [18] PEGATRON_PanelTray> *MDLN 
+    <A [5] 1.0.0> *SOFTREV 
+>
+
+2024-01-22 17:03:49.1499[TRACE]Receive [S5F1_E] Alarm Report Send,TrxId[202401221703491499],SystemBytes[1687075124]
+00 00 85 01 00 00 64 8E B9 34 
+01 03 21 01 86 A9 02 04 C5 41     09 41 6C 61 72 6D 5F 31 32 32 
+S5F1 E2H Wbit(True) DeviceID(0) Systembytes(1687075124)
+<L [3]
+    <BIN [1] 134> *ALCD 
+    <U2 [1] 1221> *ALID 
+    <A [9] Alarm_122> *ALTX 
+>
+
+2024-01-22 17:03:49.2618[TRACE]Send [S5F2_H] Alarm Report Acknowledge,TrxId[202401221703491499],SystemBytes[1687075124]
+00 00 05 02 00 00 64 8E B9 34 
+21 01 00 
+S5F2 H2E Wbit(False) DeviceID(0) Systembytes(1687075124)
+<BIN [1] 0> *ACKC5 
+
+2024-01-22 17:03:49.2779[TRACE]Receive [S5F1_E] Alarm Report Send,TrxId[202401221703492779],SystemBytes[1754447160]
+00 00 85 01 00 00 68 92 BD 38 
+01 03 21 01 86 A9 02 04 C6 41     09 41 6C 61 72 6D 5F 31 32 33 
+S5F1 E2H Wbit(True) DeviceID(0) Systembytes(1754447160)
+<L [3]
+    <BIN [1] 134> *ALCD 
+    <U2 [1] 1222> *ALID 
+    <A [9] Alarm_123> *ALTX 
+>
+
+2024-01-22 17:03:49.3733[TRACE]Send [S5F2_H] Alarm Report Acknowledge,TrxId[202401221703492779],SystemBytes[1754447160]
+00 00 05 02 00 00 68 92 BD 38 
+21 01 00 
+S5F2 H2E Wbit(False) DeviceID(0) Systembytes(1754447160)
+<BIN [1] 0> *ACKC5 
+
+2024-01-22 17:03:50.9555[TRACE]Receive [S5F1_E] Alarm Report Send,TrxId[202401221703509555],SystemBytes[1754585806]
+00 00 85 01 00 00 68 94 DA CE 
+01 03 21 01 06 A9 02 04 C5 41     09 41 6C 61 72 6D 5F 31 32 32 
+S5F1 E2H Wbit(True) DeviceID(0) Systembytes(1754585806)
+<L [3]
+    <BIN [1] 6> *ALCD 
+    <U2 [1] 1221> *ALID 
+    <A [9] Alarm_122> *ALTX 
+>
+
+2024-01-22 17:03:51.0362[TRACE]Send [S5F2_H] Alarm Report Acknowledge,TrxId[202401221703509555],SystemBytes[1754585806]
+00 00 05 02 00 00 68 94 DA CE 
+21 01 00 
+S5F2 H2E Wbit(False) DeviceID(0) Systembytes(1754585806)
+<BIN [1] 0> *ACKC5 
+
+2024-01-22 17:03:51.0522[TRACE]Receive [S5F1_E] Alarm Report Send,TrxId[202401221703510522],SystemBytes[1821957842]
+00 00 85 01 00 00 6C 98 DE D2 
+01 03 21 01 06 A9 02 04 C6 41     09 41 6C 61 72 6D 5F 31 32 33 
+S5F1 E2H Wbit(True) DeviceID(0) Systembytes(1821957842)
+<L [3]
+    <BIN [1] 6> *ALCD 
+    <U2 [1] 1222> *ALID 
+    <A [9] Alarm_123> *ALTX 
+>
+
+2024-01-22 17:03:51.1474[TRACE]Send [S5F2_H] Alarm Report Acknowledge,TrxId[202401221703510522],SystemBytes[1821957842]
+00 00 05 02 00 00 6C 98 DE D2 
+21 01 00 
+S5F2 H2E Wbit(False) DeviceID(0) Systembytes(1821957842)
+<BIN [1] 0> *ACKC5 
+
+2024-01-22 17:03:57.8281[TRACE]Receive [S6F11_E] Event Report Send,TrxId[202401221703578281],SystemBytes[622302259]
+00 00 86 0B 00 00 25 17 94 33 
+01 03 A9 02 00 2B B1 04 00 00     00 7B 01 01 01 02 A9 02 00 78 
+01 01 A9 02 00 04 
+S6F11 E2H Wbit(True) DeviceID(0) Systembytes(622302259)
+<L [3]
+    <U2 [1] 43> *DATAID 
+    <U4 [1] 123> *CEID 
+    <L [1]
+        <L [2]
+            <U2 [1] 120> *RPTID 
+            <L [1]
+                <U2 [1] 4> *VB 
+            >
+        >
+    >
+>
+
+2024-01-22 17:03:57.9403[TRACE]Send [S6F12_H] Event Report Acknowledge,TrxId[202401221703578281],SystemBytes[622302259]
+00 00 06 0C 00 00 25 17 94 33 
+21 01 00 
+S6F12 H2E Wbit(False) DeviceID(0) Systembytes(622302259)
+<BIN [1] 0> *ACKC6 
+
+2024-01-22 17:03:58.9902[TRACE]Receive [S6F11_E] Event Report Send,TrxId[202401221703589902],SystemBytes[2389328184]
+00 00 86 0B 00 00 8E 6A 41 38 
+01 03 A9 02 00 28 B1 04 00 00     00 72 01 01 01 02 A9 02 00 72 
+01 01 25 01 00 
+S6F11 E2H Wbit(True) DeviceID(0) Systembytes(2389328184)
+<L [3]
+    <U2 [1] 40> *DATAID 
+    <U4 [1] 114> *CEID 
+    <L [1]
+        <L [2]
+            <U2 [1] 114> *RPTID 
+            <L [1]
+                <B [1] 0> *VB 
+            >
+        >
+    >
+>
+
+2024-01-22 17:03:59.0573[TRACE]Send [S6F12_H] Event Report Acknowledge,TrxId[202401221703589902],SystemBytes[2389328184]
+00 00 06 0C 00 00 8E 6A 41 38 
+21 01 00 
+S6F12 H2E Wbit(False) DeviceID(0) Systembytes(2389328184)
+<BIN [1] 0> *ACKC6 
+
+2024-01-22 17:04:07.7810[TRACE]Receive [S6F11_E] Event Report Send,TrxId[202401221704077810],SystemBytes[412998037]
+00 00 86 0B 00 00 18 9D D9 95 
+01 03 A9 02 00 7D B1 04 00 00     00 6F 01 01 01 02 A9 02 00 6E 
+01 04 25 01 00 25 01 01 25 01     00 25 01 00 
+S6F11 E2H Wbit(True) DeviceID(0) Systembytes(412998037)
+<L [3]
+    <U2 [1] 125> *DATAID 
+    <U4 [1] 111> *CEID 
+    <L [1]
+        <L [2]
+            <U2 [1] 110> *RPTID 
+            <L [4]
+                <B [1] 0> *VB 
+                <B [1] 1> *VB 
+                <B [1] 0> *VB 
+                <B [1] 0> *VB 
+            >
+        >
+    >
+>
+
+2024-01-22 17:04:07.8122[TRACE]Send [S6F12_H] Event Report Acknowledge,TrxId[202401221704077810],SystemBytes[412998037]
+00 00 06 0C 00 00 18 9D D9 95 
+21 01 00 
+S6F12 H2E Wbit(False) DeviceID(0) Systembytes(412998037)
+<BIN [1] 0> *ACKC6 
+
+2024-01-22 17:04:36.9385[TRACE]Send [S1F1_H] AreYouThereRequest,TrxId[2024012217042236843],SystemBytes[71]
+00 00 81 01 00 00 00 00 00 47 
+
+S1F1 H2E Wbit(True) DeviceID(0) Systembytes(71)
+
+2024-01-22 17:04:36.9544[TRACE]Receive [S1F2_E] OnlineData,TrxId[2024012217042236843],SystemBytes[71]
+00 00 01 02 00 00 00 00 00 47 
+01 02 41 12 50 45 47 41 54 52     4F 4E 5F 50 61 6E 65 6C 54 72 
+61 79 41 05 31 2E 30 2E 30 
+S1F2 E2H Wbit(False) DeviceID(0) Systembytes(71)
+<L [2]
+    <A [18] PEGATRON_PanelTray> *MDLN 
+    <A [5] 1.0.0> *SOFTREV 
+>
+

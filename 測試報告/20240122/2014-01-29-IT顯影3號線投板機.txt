@@ -1,0 +1,38 @@
+IT顯影3號線 投板機 11/29 
+Issue : 
+    1. 進料口Tray定位機構未調整好
+    2. 沒有強制退框功能
+Notes :
+    1. 新增板厚設備參數，下工單資料時提供
+    
+X ===== 設備時間同步-Host Trigger
+        EC可寫入設備，設備HMI未更改時間
+V ===== Host控制設備切換 Online Remote
+V ===== Host控制設備切換 Online Local
+===== 設備機況收集-运行                     CEID:122/RPTID:120/VID:1003/3
+V ===== 設備機況收集-待機                     CEID:121/RPTID:120/VID:1003/2
+V ===== 設備機況收集-停機                     CEID:120/RPTID:120/VID:1003/1
+V ===== 設備機況收集-Stop                    CEID:123/RPTID:120/VID:1003/4
+===== 設備機況收集-開機                     CEID:124/RPTID:120/VID:1003/5
+V ===== 設備機況收集-保養                     CEID:125/RPTID:120/VID:1003/6
+V ===== 設備警報收集-發生                     S5F1
+V ===== 設備警報收集-解除                     S5F1
+V ===== 設備警報收集-查詢                     S5F3
+V ===== 設備關鍵參數收集                      S2F13
+V ===== 設備生產訊號收集-Local                                          127 /VID:2067 : 1=Remote,0=Local
+V ===== 設備生產訊號收集-Remote                                       127 /VID:2067 : 1=Remote,0=Local
+===== 設備生產訊號收集-生產開始訊號                                     104 /VID:2004 :  1=開始放板    
+===== 設備生產訊號收集-生產結束訊號                                     105 /VID:2005 :  1=結束放板          
+===== 設備生產訊號收集-Panel read                                     100   
+V ===== 設備生產訊號收集-Check In Request工單確認請求                     101               
+===== 設備生產訊號收集-Check Out   工單完成                            102
+X ===== 設備生產訊號收集-Port1 Port Cancel   強制退框                    106
+        沒有此功能
+V ===== 設備生產訊號收集-Port1 Loaded   機台物料檢測                      107
+V ===== 設備生產訊號收集-Port Status Change Report (LDRQ)   請求上料     110
+V ===== 設備生產訊號收集-Port Status Change Report (LDCP)   上料完成     111
+===== 設備生產訊號收集-Port Status Change Report (ULRQ)   請求下料     112
+===== 設備生產訊號收集-Port Status Change Report (ULCP)   下料完成     113
+V ===== 遠端控制設備-Check In Result                                 2053
+===== 遠端控制設備-Panel ID Upload Report Ack                      2056
+===== 遠端控制設備-Check Out Report Ack                            2054

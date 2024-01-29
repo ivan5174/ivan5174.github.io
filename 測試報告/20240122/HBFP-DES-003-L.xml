@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--转换文件：Z:\Minzhi\Project\TW-KINSUS-001\SVN\EAP\04_Test_Report\Manual\04_Test Script\K6A_投收扳机 - new.xlsx  ，转换时间：2023-12-20 05:43:30-->
+<library>
+  <variablecollection>
+    <variable id="1000" name="EQ Current Recipe No." defaultunit="U2" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="RecipeID" rule="" enable="" />
+    <variable id="1001" name="EQ Works Flow Counter" defaultunit="U2" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="" rule="" enable="" />
+    <variable id="1002" name="EQ Type" defaultunit="U2" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="" rule="" enable="" />
+    <variable id="1003" name="EQ Status" defaultunit="U2" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="EquipmentStatus" rule="2:IDLE;3:RUN;1:DOWN;4:STOP;5:DOWN;6:PM" enable="" />
+    <variable id="1004" name="EQ Panel Direction" defaultunit="U2" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="Angle" rule="" enable="" />
+    <variable id="1005" name="EQ Panel Face" defaultunit="U2" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="SurFace" rule="" enable="" />
+    <variable id="1010" name="EQ Part No" defaultunit="A" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="" rule="" enable="" />
+    <variable id="1020" name="EQ LOT ID" defaultunit="A" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="LotID" rule="" enable="" />
+    <variable id="1030" name="EQ Panel ID" defaultunit="A" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="PanelID" rule="" enable="" />
+    <variable id="1040" name="EQ Panel Tray ID" defaultunit="A" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="" rule="" enable="" />
+    <variable id="1050" name="EQ Carrier ID" defaultunit="A" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="CarrierID" rule="" enable="" />
+    <variable id="1100" name="EQ Multi Panel ID軌道A-2D上報" defaultunit="A" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="" rule="" enable="" />
+    <variable id="1110" name="EQ Multi Panel ID軌道B-2D上報" defaultunit="A" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="" rule="" enable="" />
+    <variable id="2000" name="Inline Clock Complete" defaultunit="B" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="" rule="" enable="" />
+    <variable id="2001" name="Port#1 Load Request" defaultunit="B" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="" rule="" enable="" />
+    <variable id="2002" name="Port#1 Load Complete" defaultunit="B" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="" rule="" enable="" />
+    <variable id="2003" name="Port#1 Check In Request" defaultunit="B" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="" rule="" enable="" />
+    <variable id="2004" name="Port#1 Process Start" defaultunit="B" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="" rule="" enable="" />
+    <variable id="2005" name="Port#1 Process End" defaultunit="B" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="" rule="" enable="" />
+    <variable id="2006" name="Port#1 Check Out Request" defaultunit="B" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="" rule="" enable="" />
+    <variable id="2007" name="Port#1 Unload Request" defaultunit="B" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="" rule="" enable="" />
+    <variable id="2008" name="Port#1 Unload Complete" defaultunit="B" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="" rule="" enable="" />
+    <variable id="2009" name="Port#1 Port Cancel" defaultunit="B" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="" rule="" enable="" />
+    <variable id="2010" name="Port#1 Port上有料檢知" defaultunit="B" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="" rule="" enable="" />
+    <variable id="2011" name="Port#1 AGV Mode" defaultunit="B" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="" rule="" enable="" />
+    <variable id="2012" name="Port#1 AGV Reserve-預留" defaultunit="B" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="" rule="" enable="" />
+    <variable id="2013" name="InLine Buffer Request(LD Only)" defaultunit="B" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="" rule="" enable="" />
+    <variable id="2014" name="InLine Buffer Pause Request(Buffer Only)" defaultunit="B" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="" rule="" enable="" />
+    <variable id="2015" name="Dummy Upload Report" defaultunit="B" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="" rule="" enable="" />
+    <variable id="2016" name="工單下帶模式(ULD專用)" defaultunit="B" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="" rule="" enable="" />
+    <variable id="2017" name="EAP Mode Bit" defaultunit="B" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="" rule="" enable="" />
+    <variable id="2018" name="EQ Heart Bit" defaultunit="B" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="" rule="" enable="" />
+    <variable id="2019" name="PanelID Upload Report" defaultunit="B" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="" rule="" enable="" />
+    <variable id="2020" name="PanelID Upload Report_軌道A-預留" defaultunit="B" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="" rule="" enable="" />
+    <variable id="2021" name="PanelID Upload Report_軌道B-預留" defaultunit="B" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="" rule="" enable="" />
+    <variable id="2041" name="板件進入主設備(板件離開拍照位置)" defaultunit="B" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="" rule="" enable="" />
+    <variable id="2042" name="完板片數遠端帶入功能" defaultunit="B" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="" rule="" enable="" />
+    <variable id="2043" name="自動ON手動OFF" defaultunit="B" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="" rule="" enable="" />
+    <variable id="2064" name="Inline Buffer Supply Stop ON(LD Only)" defaultunit="B" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="" rule="" enable="" />
+    
+    <variable id="2068" name="SMB Heart Bit" defaultunit="B" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="" rule="" enable="" />
+  </variablecollection>
+  <reportcollection>
+    <report id="100" name="Slot Complete" link="1000,1001,1004,1005,1010,1020,1030,1040,1050" alias="" enable="" />
+    <report id="101" name="Check In Request" link="1020,1050" alias="" enable="" />
+    <report id="102" name="Check Out" link="1020,1050" alias="" enable="" />
+    <report id="104" name="Port1 Process Start" link="2004" alias="" enable="" />
+    <report id="105" name="Port1 Process End" link="2005" alias="" enable="" />
+    <report id="106" name="Port1 Port Cancel" link="2009" alias="" enable="" />
+    <report id="107" name="Port1 Loaded" link="2010" alias="" enable="" />
+    <report id="108" name="Port1 AGV Mode" link="2011" alias="" enable="" />
+    <report id="110" name="Port Status Change Report (LDRQ)" link="2001,2002,2007,2008" alias="" enable="" />
+    <report id="111" name="Port Status Change Report (LDCP)" link="2001,2002,2007,2008" alias="" enable="" />
+    <report id="112" name="Port Status Change Report (ULRQ)" link="2001,2002,2007,2008" alias="" enable="" />
+    <report id="113" name="Port Status Change Report (ULCP)" link="2001,2002,2007,2008" alias="" enable="" />
+    <report id="120" name="EQ Status Change Report (Down)" link="1003" alias="" enable="" />
+    <report id="121" name="Port Status Change Report (Idle)" link="1003" alias="" enable="" />
+    <report id="122" name="Port Status Change Report (Running)" link="1003" alias="" enable="" />
+    <report id="123" name="Port Status Change Report (Stop )" link="1003" alias="" enable="" />
+    <report id="124" name="Port Status Change Report (Setup)" link="1003" alias="" enable="" />
+    <report id="125" name="Port Status Change Report (PM)" link="1003" alias="" enable="" />
+    <report id="150" name="Multi Panel A Slot Complete" link="1000,1001,1004,1005,1010,1020,1100,1040" alias="" enable="" />
+    <report id="151" name="Multi Panel B Slot Complete" link="1000,1001,1004,1005,1010,1020,1110,1040" alias="" enable="" />
+    <report id="400" name="" link="1003" alias="" enable="" />
+  </reportcollection>
+  <eventcollection>
+    <event id="100" name="Slot Complete" link="100" alias="PanelReadOK" enable="" />
+    <event id="101" name="Check In Request" link="101" alias="CheckInRequest" enable="" />
+    <event id="102" name="Check Out" link="102" alias="CheckOutRequest" enable="" />
+    <event id="104" name="Port1 Process Start" link="104" alias="PanelProcessStart" enable="" />
+    <event id="105" name="Port1 Process End" link="105" alias="PanelProcessEnd" enable="" />
+    <event id="106" name="Port1 Port Cancel" link="106" alias="" enable="" />
+    <event id="107" name="Port1 Loaded" link="107" alias="" enable="" />
+    <event id="108" name="Port1 AGV Mode" link="108" alias="" enable="" />
+    <event id="110" name="Port Status Change Report (LDRQ)" link="110" alias="LoadRequest" enable="" />
+    <event id="111" name="Port Status Change Report (LDCP)" link="111" alias="LoadComplete" enable="" />
+    <event id="112" name="Port Status Change Report (ULRQ)" link="112" alias="UnLoadRequest" enable="" />
+    <event id="113" name="Port Status Change Report (ULCP)" link="113" alias="UnLoadComplete" enable="" />
+    <event id="120" name="EQ Status Change Report (Down)" link="120" alias="EquipmentDOWN" enable="" />
+    <event id="121" name="Port Status Change Report (Idle)" link="121" alias="EquipmentIDLE" enable="" />
+    <event id="122" name="Port Status Change Report (Running)" link="122" alias="EquipmentRUN" enable="" />
+    <event id="123" name="Port Status Change Report (Stop )" link="123" alias="EquipmentDOWN" enable="" />
+    <event id="124" name="Port Status Change Report (Setup)" link="124" alias="EquipmentDOWN" enable="" />
+    <event id="125" name="Port Status Change Report (PM)" link="125" alias="EquipmentPM" enable="" />
+    <event id="150" name="Multi Panel A Slot Complete" link="150" alias="PanelReadOK_A" enable="" />
+    <event id="151" name="Multi Panel B Slot Complete" link="151" alias="PanelReadOK_B" enable="" />
+    <event id="400" name="" link="400" alias="EquipmentInit" enable="" />
+  </eventcollection>
+  <commandparametercollection />
+  <commandcollection />
+  <alarmcollection>
+    <alarm id="1" alarmtype="" alarmtextchinese="M1004: 外部料倉頂升下降異常" alarmtextenglish="" enable="O" />
+    <alarm id="2" alarmtype="" alarmtextchinese="M1005: 外部料倉頂升上升異常" alarmtextenglish="" enable="O" />
+    <alarm id="3" alarmtype="" alarmtextchinese="M1014: 料框軌道1頂升下降異常" alarmtextenglish="" enable="O" />
+    <alarm id="4" alarmtype="" alarmtextchinese="M1015: 料框軌道1頂升上升異常" alarmtextenglish="" enable="" />
+    <alarm id="5" alarmtype="" alarmtextchinese="M1024: 料框軌道3頂升下降異常" alarmtextenglish="" enable="" />
+  </alarmcollection>
+  <constantdatacollection>
+    <constant id="1200" name="CiMES Recipe No." defaultunit="U2" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="RecipeID" rule="" enable="" />
+    <constant id="1201" name="CiMES PanelQty" defaultunit="U2" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="ProduceCount" rule="" enable="" />
+    <constant id="1202" name="Remote Stop Reason" defaultunit="U2" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="RemoteStopReason" rule="" enable="" />
+    <constant id="1203" name="CiMES Check In Result" defaultunit="U2" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="" rule="" enable="" />
+    <constant id="1210" name="CiMES Part No." defaultunit="A" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="ProductNo" rule="" enable="" />
+    <constant id="1220" name="CiMES LOT ID" defaultunit="A" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="LOTID" rule="" enable="" />
+    <constant id="1230" name="CiMES Message Data" defaultunit="A" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="CheckInMessage" rule="" enable="" />
+    <constant id="1250" name="CiMES Inline 對時_年" defaultunit="U2" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="SetTimeYear" rule="" enable="" />
+    <constant id="1251" name="CiMES Inline 對時_月" defaultunit="U2" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="SetTimeMonth" rule="" enable="" />
+    <constant id="1252" name="CiMES Inline 對時_日" defaultunit="U2" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="SetTimeDay" rule="" enable="" />
+    <constant id="1253" name="CiMES Inline 對時_時" defaultunit="U2" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="SetTimeHour" rule="" enable="" />
+    <constant id="1254" name="CiMES Inline 對時_分" defaultunit="U2" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="SetTimeMinute" rule="" enable="" />
+    <constant id="1255" name="CiMES Inline 對時_秒" defaultunit="U2" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="SetTimeSecond" rule="" enable="" />
+    <constant id="2050" name="Inline 對時 Request" defaultunit="B" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="" rule="" enable="" />
+    <constant id="2053" name="CiMES Check In Result Ack" defaultunit="B" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="CheckInAck" rule="" enable="" />
+    <constant id="2054" name="CiMES Check Out Ack" defaultunit="B" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="CheckOutAck" rule="" enable="" />
+    <constant id="2056" name="PanelID Upload Report Ack" defaultunit="B" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="PanelReadAck" rule="" enable="" />
+    <constant id="2057" name="PanelID Upload Report Ack-軌道A" defaultunit="B" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="" rule="" enable="" />
+    <constant id="2058" name="PanelID Upload Report Ack-軌道B" defaultunit="B" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="" rule="" enable="" />
+    <constant id="2063" name="遠端暫停-PanelID比對不符" defaultunit="B" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="RemoteStop" rule="" enable="" />
+	<constant id="2065" name="Dummy" defaultunit="B" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="RemoteStop" rule="" enable="" />
+	<constant id="2067" name="暫存機模式(暫存機專用)" defaultunit="B" defaultvalue="" maxvalue="" minvalue="" defaultlength="" alias="" rule="" enable="" />
+  </constantdatacollection>
+  <tracedatacollection />
+  <recipebodycollection />
+  <discretedatacollection />
+</library>

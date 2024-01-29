@@ -1,0 +1,70 @@
+Event ID    Description    Comment    Link Report ID
+60001    Control Mode Change                    控制模式切换    60001
+60002    Equipment Status Change                設備狀態切換    60002
+60003    Equipment Operation Mode Change        設備操作模式切換    60003
+60004    Equipment Current PPID Change          设备当前使用配方名改变    60004
+60005    Process Program Create                 新增配方名    60005
+60006    Process Program Delete                 删除配方名    60006
+60007    Process Program Modify                 修改配方名    60007
+60008    Process Program Selected               配方切换完成    60008
+60010    Panel Process Start                    开始制程    60010
+60011    Panel Process End                      结束制程    60011
+60016    Signal Tower Light Change              设备生产讯号收集-信号灯状态    60016
+60012    Lot Process Start                      开始制程    60012
+60013    Lot Process End                        结束制程    60013
+100      Panel Upload Report                    板件上報    100
+101      Check In Req                           工單確認請求(Check In)    101
+102      Check Out                              工單完成(Check Out)    102
+103      DownLoad_LotID_Mode                    工單下帶模式    103
+104      Port1 Process Start                    開始放板/開始收板    104
+105      Port1 Process End                      結束放板/結束收板    105
+106      Port1 Port Cancel                      強制退框    106
+107      Port1 Loaded                           機台物料檢測    107
+108      Port1 AGV Mode                         AGV模式    108
+109      Panel In/Out Complete                  出板完成/入板完成    109
+110      Port Status Change Report (LDRQ)       請求上料    110
+111      Port Status Change Report (LDCP)       上料完成    110
+112      Port Status Change Report (ULRQ)       請求下料    110
+113      Port Status Change Report (ULCP)       下料完成    110
+114      Machine Operation Mode                 機台操作模式切換    114
+120      EQ Status Change Report (Down)         機台異常停機    120
+121      Port Status Change Report (Idle)       機台閒置    120
+122      Port Status Change Report (Running)    機台運作    120
+123      Port Status Change Report (Stop )      機台停機    120
+124      Port Status Change Report (Setup)      機台復歸    120
+125      Port Status Change Report (PM)         機台保養    120
+126      Remote Panel Qty Switch                遠端片數下帶模式切換    126
+127      EQP Remote Control Switch              機台模式切換:Online/Offline    127
+128      EAP Remote Control Switch              EAP模式切換:Remote/Local    128
+129      Port2 Panel Upload Report              Port2 PanelID Upload Report    129
+130      Port2 Panel In/Out Complete            Port2 Panel In/Out Complete    130
+132      Port2 Check Out    Port2               工單完成    132
+140      Port2 Status Change Report (LDRQ)      Port2 請求上料    140
+141      Port2 Status Change Report (LDCP)      Port2 上料完成    140
+142      Port2 Status Change Report (ULRQ)      Port2 請求下料    140
+143      Port2 Status Change Report (ULCP)      Port2 下料完成    140
+144      Port2 Process Start    Port2           開始收板    144
+145      Port2 Process End    Port2             結束收板    145
+146      Port2 Port Cancel    Port2             強制退框    146
+147      Port2 Loaded                           Port2 物料檢測    147
+148      Port2 AGV Mode                         Port2 AGV模式    148
+150      Multi Panel A Upload Report            Multi Panel A 板件上報    150
+151      Multi Panel B Upload Report            Multi Panel B 板件上報    151
+152      Dummy Upload Report                    Dummy板上報    152
+154      MuoChangeComplete                    ABF乾墨安裝完成    154
+155      Check In ACK On/off                    Check In ACK On/off    155
+156      Panel Upload ACK On/Off                板件上報 ACK On/Off    156
+157      Multi Panel A Upload Ack  On/Off    Multi Panel A Upload Ack On/Off    157
+158      Multi Panel B Upload Ack  On/Off    Multi Panel B Upload Ack On/Off    158
+159      Port2 Panel Upload Ack  On/Off        Port2 Panel Upload ACK On/Off    159
+160      ABF_Lazer_Mode_Change                ABF雷鑽機生產模式切換    160
+161      EQ_Type_Change                        EQ Type切換(多载具)    161
+162      On-Time_Complete                    對時完成    162
+163      Dummy Upload Report Ack  On/Off        Dummy板上報 Ack On/Off    163
+164      Check Out Ack  On/Off                工單完成 ACK On/off    164
+165      Port2 Check Out Ack  On/Off            Port2 工單完成 On/off    165
+400      GET Current EQ Status                當前機台狀態上報    400
+500      GET All EQ Data                        生產數據上報    500
+501      Port2 GET All EQ Data    Port2       生產數據上報    501
+502      RecipeChangeOK                        配方切换完成事件    502
+900      Remote Control Switch                遠端控制模式切換    900
